@@ -61,8 +61,7 @@ The interactive device I propose here is a smart light that can act as a visual 
 
 **Include a picture of your storyboard here**
 
-[[/images/storyboard.png]]
-
+![P1: Storyboard](./images/storyboard.png)
 
 **Summarize feedback you got here.**
 1. The light intensity might not be bright enough to effectively indicate users or wake them up, consider to increase the lux(light intensity) and number of light bulbs.

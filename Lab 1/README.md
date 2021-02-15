@@ -107,7 +107,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 Now, change the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
-![P2: Paperprototype](./images/paperprototype.png)
+![P2: Paperprototype](./images/paperprototype.jpeg)
 
 
 ## Part E. Costume the device

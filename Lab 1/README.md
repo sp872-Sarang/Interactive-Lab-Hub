@@ -79,7 +79,7 @@ The things that seemed better on paper than acted out were that I could assume t
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
-**The new ideas that occur to me from the acting are that I can use the smart lighting to indicate the users when someone knocking on the door or when someone trying to break in the door. **
+The new ideas that occur to me from the acting are that I can use the smart lighting to indicate the users when someone knocking on the door or when someone trying to break in the door. 
 
 
 ## Part C. Prototype the device

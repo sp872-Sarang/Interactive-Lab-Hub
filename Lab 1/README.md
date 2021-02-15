@@ -98,7 +98,9 @@ In this part, I am using the Webhook APIs in IFTTT to interact with my existing 
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
+
 **Please change the video quality to 1080p manually** 
+
 [![Microwave](./images/setup.png)](https://drive.google.com/file/d/1B8vUKExsxOhr5DaakHY9V8Wf6JHPXCun/view?usp=sharing)
 
 
@@ -125,7 +127,9 @@ An opportunity that influences me is the Philips Hue smart lighting, which gives
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
+
 **Please change the video quality to 1080p manually** 
+
 [![Microwave](./images/microwave.png)](https://drive.google.com/file/d/1xPM4_CEogaBsyOKi88BFESSt0ZOXcsNm/view?usp=sharing)
 [![WakeUp](./images/WakeUp.png)](https://drive.google.com/file/d/1DpqRNP3WIOeOjkiI0BsVq9vz8MD6USwF/view?usp=sharing)
 

@@ -61,7 +61,7 @@ The interactive device I propose here is a smart light that can act as a visual 
 
 **Include a picture of your storyboard here**
 
-[/images/storyboard.png]
+[[/images/storyboard.png]]
 
 
 **Summarize feedback you got here.**

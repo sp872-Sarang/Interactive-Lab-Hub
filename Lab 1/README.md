@@ -98,11 +98,15 @@ In this part, I am using the Webhook APIs in IFTTT to interact with my existing 
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
-https://drive.google.com/drive/folders/196gRUOJf8BOaCAJnz7lo6LLpN3pGUbrx?usp=sharing
+**Please change the video quality to 1080p manually** 
+[![Microwave](./images/setup.png)](https://drive.google.com/file/d/1B8vUKExsxOhr5DaakHY9V8Wf6JHPXCun/view?usp=sharing)
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+
+Now, change the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
+![P2: Paperprototype](./images/paperprototype.png)
+
 
 ## Part E. Costume the device
 
@@ -111,18 +115,24 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
-https://drive.google.com/drive/folders/196gRUOJf8BOaCAJnz7lo6LLpN3pGUbrx?usp=sharing
+![P3: sketches](./images/sketches.png)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
+The concern is that the lights might not be responsive and acting slow due to weak WiFi signal and congested WiFi traffic. Also, during the daytime, the lights might not be as visible as at night time, which might hard to see and alarm users. Therefore, I might use a Zigbee relay on the light bulb instead of using WiFi for low latency. I will probably add more light beads to the LED so the device can be even brighter and be visible during night time.
 
+An opportunity that influences me is the Philips Hue smart lighting, which gives me the ability to control the lights remotely. I also make use of the WebHook API in IFTTT to link my Alexa alarm and my lights together. 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
-https://drive.google.com/drive/folders/196gRUOJf8BOaCAJnz7lo6LLpN3pGUbrx?usp=sharing
+**Please change the video quality to 1080p manually** 
+[![Microwave](./images/microwave.png)](https://drive.google.com/file/d/1xPM4_CEogaBsyOKi88BFESSt0ZOXcsNm/view?usp=sharing)
+[![WakeUp](./images/WakeUp.png)](https://drive.google.com/file/d/1DpqRNP3WIOeOjkiI0BsVq9vz8MD6USwF/view?usp=sharing)
 
 **Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+[Philips Hue Lightbulbs](https://philips-hue.com), [C by GE smart light](https://gelighting.com), [Amazon Alexa](https://alexa.amazon.com), [IFTTT WebHook](https://ifttt.com/maker_webhooks), [simerlyd’s Applets on IFTTT](https://ifttt.com/applets/tnqLbTAN-flash-philips-hue-lights-red-when-alexa-alarm-goes-off)
+
 
 # Staging Interaction, Part 2 
 

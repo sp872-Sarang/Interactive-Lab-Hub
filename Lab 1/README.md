@@ -60,6 +60,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 The interactive device I propose here is a smart light that can act as a visual alarm to indicate people by interacting with home appliances and electronics. This design is especially helpful for people with hearing impairments. One example is happening in bedroom and an Alexa voice assitant, myself and the smart lighting device will be involved in the interaction. So when my wake-up alarm rings in the mornings in my bedroom, the device will also blink to wake me. Another scenario is hapening in the kitchen and a smart microwave, myself, and the smart lighting device is involved in the interaction. So when food in the microwave is ready, the lights will blink in a user-defined color to indicate me that the food is ready. 
 
 **Include a picture of your storyboard here**
+
 [/images/storyboard.png]
 
 
@@ -72,6 +73,7 @@ The interactive device I propose here is a smart light that can act as a visual 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
 **Are there things that seemed better on paper than acted out?**
 
 The things that seemed better on paper than acted out were that I could assume that everything would work exactly what I wanted with no exception but in reality, a lot of things can go wrong. For example, the Alexa command might not work to wake Alexa up and the WIFI might be slow and affect the timing of the lights.

@@ -67,22 +67,24 @@ _Activity:_ What is happening between the actors?
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-**Describe your setting, players, activity and goals here.**
+**The interactive device I propose here is a smart light that can act as a visual alarm to indicate people by interacting with home appliances and electronics. This design is especially helpful for people with hearing impairments. One example is happening in bedroom and an Alexa voice assitant, myself and the smart lighting device will be involved in the interaction. So when my wake-up alarm rings in the mornings in my bedroom, the device will also blink to wake me. Another scenario is hapening in the kitchen and a smart microwave, myself, and the smart lighting device is involved in the interaction. So when food in the microwave is ready, the lights will blink in a user-defined color to indicate me that the food is ready. **
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
-**Summarize feedback you got here.**
+** 1. The light intensity might not be bright enough to effectively indicate users or wake them up, consider to increase the lux(light intensity) and number of light bulbs.**
+** 2. It might affect other users who are sharing the same space.**
+
 
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-**Are there things that seemed better on paper than acted out?**
+**The things that seemed better on paper than acted out were that I could assume that everything would work exactly what I wanted with no exception but in reality, a lot of things can go wrong. For example, the Alexa command might not work to wake Alexa up and the WIFI might be slow and affect the timing of the lights.**
 
-**Are there new ideas that occur to you or your collaborators that come up from the acting?**
+**The new ideas that occur to me from the acting are that I can use the smart lighting to indicate the users when someone knocking on the door or when someone trying to break in the door. **
 
 
 ## Part C. Prototype the device
@@ -93,9 +95,9 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 
 We invented this tool for this lab! 
 
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can manually or remotely control.
 
-**Give us feedback on Tinkerbelle.**
+** In this part, I am using the Webhook APIs in IFTTT to interact with my existing Philips Hue smart lighting system.**
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 

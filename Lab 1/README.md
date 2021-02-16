@@ -149,6 +149,14 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+Songyu Du:
+In the 1st video, I saw the user use a microwave but he didn’t notice the beep of microwave because he was wearing a headphone. The user was reminded by the blinking lights in the living room that the food was ready. In the 2nd video, the user was sleeping with a headphone, and he was weaken up by the blinking lights in the bedroom. I must say the interactions seemed so fun. I personally want to have this installment at my home too.
+Scene: At home when the user’s hearing is occupied or even the user is hearing impaired. 
+Goal: A visual alarm that helps people with hearing impairments live well at home.
+Not clear: Does the user need to control this device (setting up alarm, which light blinks for which interaction) using smart phone? How would you turn the light alarm off (especially that for microwave)? Seemed like the lights blink till the end of your video.
+
+
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 

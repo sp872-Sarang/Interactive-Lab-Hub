@@ -155,6 +155,18 @@ Scene: At home when the user’s hearing is occupied or even the user is hearing
 Goal: A visual alarm that helps people with hearing impairments live well at home.
 Not clear: Does the user need to control this device (setting up alarm, which light blinks for which interaction) using smart phone? How would you turn the light alarm off (especially that for microwave)? Seemed like the lights blink till the end of your video.
 
+Renzhi Hu:
+
+What’s happening: 
+you used the lighting device to setup timer and alarms to notify and help hearing impaired users when the time’s up.
+
+The scene and the goals of the character: 
+Scene 1: microwaving food; The goal: notify the user when the food is done
+Scene 2: waking up in the morning; The goal: use intense lighting to wake user up
+
+Anything that wasn’t clear: 
+How the alarm is set isn’t being showed in the videos. How to turn off the lighting? What happens if the user wasn’t around and didn’t see the light?
+
 
 
 ## Make it your own

@@ -176,8 +176,8 @@ Do last week’s assignment again, but this time:
 
 **Document everything here.**
 
-![P4: Storyboard1](./images/Storyboard1.JPG)
-![P5: Storyboard2](./images/Storyboard2.JPG)
+![P4: Storyboard1](./images/storyboard1.JPG)
+![P5: Storyboard2](./images/storyboard2.JPG)
 [![Microwave](./images/actout.png)](https://drive.google.com/file/d/1cmOja48yEhJusi3O1tw7HVjYbC51z4M4/view?usp=sharing)
 
 

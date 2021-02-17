@@ -149,6 +149,24 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+Songyu Du:
+In the 1st video, I saw the user use a microwave but he didn’t notice the beep of microwave because he was wearing a headphone. The user was reminded by the blinking lights in the living room that the food was ready. In the 2nd video, the user was sleeping with a headphone, and he was weaken up by the blinking lights in the bedroom. I must say the interactions seemed so fun. I personally want to have this installment at my home too.
+Scene: At home when the user’s hearing is occupied or even the user is hearing impaired. 
+Goal: A visual alarm that helps people with hearing impairments live well at home.
+Not clear: Does the user need to control this device (setting up alarm, which light blinks for which interaction) using smart phone? How would you turn the light alarm off (especially that for microwave)? Seemed like the lights blink till the end of your video.
+
+Renzhi Hu:
+What’s happening: 
+you used the lighting device to setup timer and alarms to notify and help hearing impaired users when the time’s up.
+The scene and the goals of the character: 
+Scene 1: microwaving food; The goal: notify the user when the food is done
+Scene 2: waking up in the morning; The goal: use intense lighting to wake user up
+Anything that wasn’t clear: How the alarm is set isn’t being showed in the videos. How to turn off the lighting? What happens if the user wasn’t around and didn’t see the light?
+
+Wenqing Tang:
+I think overall it's a really great idea, and it already works pretty well :slightly_smiling_face: The only suggestion I can give is sometimes there might be multiple things in need of the lighting indication at the same time, e.g. the food is heated by microwave and maybe the laundry is done too, so maybe you can think a little about how to handle situations like this while still let the light shown in a wide range (like you are doing right now) so that people won't miss it.
+
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 

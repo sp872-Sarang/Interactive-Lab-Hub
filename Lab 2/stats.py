@@ -76,7 +76,7 @@ while True:
     LOC = subprocess.check_output(cmd, shell=True).decode("utf-8")
     cmd = 'curl -s ils.rate.sx/1USD'
     USD = "$1USD = ₪" + subprocess.check_output(cmd, shell=True).decode("utf-8") + "ILS"
-    cmd = "cat /sys/class/thermal/thermal_zone0/temp |  awk '{printf \"CPU Temp: %.1f C\", $(NF-0) / 1000}'" 
+    cmd = "cat /sys/class/thermal/thermal_zone0/temp |  awk '{printf \"CPU Temp: %.1f C\", $(NF-0) / 1000}'"
     Temp = subprocess.check_output(cmd, shell=True).decode("utf-8")
 
     # Write four lines of text.

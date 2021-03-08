@@ -194,21 +194,27 @@ As always, make sure you document contributions and ideas from others explicitly
 The Pi clock I designed is a colorful numeric clock that can change color over time based on the time of a day, sunset, sunrise, and weather forecast. The clock can update the sunrise and sunset time based on your location making use of the [suntime](https://github.com/SatAgro/suntime) library.
 
 In a sunny morning and it is a sunny day, the clock looks like this:
+
 ![P1: morning](./images/morning.png)
 
 In a sunny noon, the clock looks like this:
+
 ![P2: noon](./images/noon.png)
 
 In a sunny afternoon, the clock looks like this:
+
 ![P3: Afternoon](./images/Afternoon.png)
 
 In a sunny later afternoon, the clock looks like this:
+
 ![P4: Evening](./images/Evening.png)
 
 After sunset, in a cloudy night, the clock looks like this:
+
 ![P5: sunset](./images/sunset.png)
 
 After midnight, in a cloudy night, the clock looks like this:
+
 ![P6: PassMidnight](./images/PassMidnight.png)
 
 [![Lab2Vid](./Lab2Vid.png)](https://drive.google.com/file/d/1GSRooO9nENscLUuMwJWbbNInsrXz2Bkq/view?usp=sharing)

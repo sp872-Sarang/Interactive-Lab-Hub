@@ -189,6 +189,39 @@ Modify the code from last week's lab to make a new visual interface for your new
 
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
+
+# Real-time Color Changing Clock
+The Pi clock I designed is a colorful numeric clock that can change color over time based on the time of a day, sunset, sunrise, and weather forecast. The clock can update the sunrise and sunset time based on your location making use of the [suntime](https://github.com/SatAgro/suntime) library.
+
+In a sunny morning and it is a sunny day, the clock looks like this:
+![P1: morning](./images/morning.png)
+
+In a sunny noon, the clock looks like this:
+![P2: noon](./images/noon.png)
+
+In a sunny afternoon, the clock looks like this:
+![P3: Afternoon](./images/Afternoon.png)
+
+In a sunny later afternoon, the clock looks like this:
+![P4: Evening](./images/Evening.png)
+
+After sunset, in a cloudy night, the clock looks like this:
+![P5: sunset](./images/sunset.png)
+
+After midnight, in a cloudy night, the clock looks like this:
+![P6: PassMidnight](./images/PassMidnight.png)
+
+[![Lab2Vid](./Lab2Vid.png)](https://drive.google.com/file/d/1GSRooO9nENscLUuMwJWbbNInsrXz2Bkq/view?usp=sharing)
+
+
+
+Feedback from Renzhi Hu:
+Hi Panda, I think your clock has a nice interface and cool features. The sunrise/sunset time and change of color are so cool. My suggestion for improvement is you could make use of both buttons to include more functionalities, such as a stopwatch, alarm, etc. Looking forward to your progress!
+
+Feedback from Songyu Du:
+Hi Panda, your clock provided users with a really good amount of information about time. Both the icon indicating day/night, and the changing color of the clock based off time made this clock informative. Maybe you could try to add more features like weather or world clock by utilizing the buttons for user interaction.
+
+
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
 

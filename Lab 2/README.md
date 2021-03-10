@@ -191,7 +191,7 @@ As always, make sure you document contributions and ideas from others explicitly
 
 
 # Real-time Color Changing Clock
-The Pi clock I designed is a colorful numeric clock that can change color over time based on the time of a day, sunset, sunrise, and weather forecast. The clock can update the sunrise and sunset time based on your location making use of the [suntime](https://github.com/SatAgro/suntime) library.
+Buildiing up from part 1, the clock now can interact with the weather, sunrise and sunset in real time by changing the clock's colors. The Pi clock I designed is a colorful numeric clock that can change color over time based on the time of a day, sunset, sunrise, and weather forecast. The clock can update the sunrise and sunset time based on your location making use of the [suntime](https://github.com/SatAgro/suntime) library.
 
 In a sunny morning and it is a sunny day, the clock looks like this:
 

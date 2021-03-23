@@ -83,6 +83,9 @@ Yimeng Sun: It is a very cool application to control game consoles using voice, 
 Songyu Du:
 Wow. This is a really cool idea! A raspberry pi version of switch/wii. A dancing/sports game could a perfect fit to it.
 
+Jingjun Wang: 
+I love how you use the accelerometer and voice input to control the movements of game avatars! I wonder if the distance between the speaker and sound source affects the response time. Using a Bluetooth headphone may also be a good idea!
+
 ## Prototype your system
 
 The system should:

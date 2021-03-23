@@ -78,6 +78,7 @@ Players can also control the game using voice commands. They can say "Turn Left"
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
+Yimeng Sun: It is a very cool application to control game consoles using voice, definitely something I never thought i needed! I am happy to see more potential extensions than turning left and right.
 
 ## Prototype your system
 

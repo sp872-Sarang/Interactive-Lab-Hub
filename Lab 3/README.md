@@ -80,6 +80,9 @@ Players can also control the game using voice commands. They can say "Turn Left"
 *what was the feedback? Who did it come from?*
 Yimeng Sun: It is a very cool application to control game consoles using voice, definitely something I never thought i needed! I am happy to see more potential extensions than turning left and right.
 
+Songyu Du:
+Wow. This is a really cool idea! A raspberry pi version of switch/wii. A dancing/sports game could a perfect fit to it.
+
 ## Prototype your system
 
 The system should:

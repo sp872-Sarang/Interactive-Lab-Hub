@@ -67,6 +67,10 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 ## Prep for Part 2
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
+Due to the pandemic, the chance people go out and workout is significantly reduced. To encourage people to work out and have some physical exercise, my idea is to create an interactive gaming sensor using Rasberry pi. that allows players to physically move their bodies while gaming. The sensors I will be using for the lab are a microphone to collect audio and an accelerometer to collect players' movement. 
+When players lean forward, backward, left, and right, the object in the game will move accordingly based on the player's physical movement.
+
+Players can also control the game using voice commands. They can say "Turn Left" or "Turn Right" to control the game characters.
 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
@@ -80,6 +84,12 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+Due to the pandemic, the chance people go out and workout is significantly reduced. To encourage people to work out and have some physical exercise, my idea is to create an interactive gaming sensor using Rasberry pi. that allows players to physically move their bodies while gaming. The sensors I will be using for the lab are a microphone to collect audio and an accelerometer to collect players' movement. 
+When players lean forward, backward, left, and right, the object in the game will move accordingly based on the player's physical movement. Players can also control the game using voice commands. They can say "Turn Left" or "Turn Right" to control the game characters.
+
+For a demonstration of how my smart device work, I wrote a simple game using Unity that uses the device and allows user to interact with it. The Ox wants to escape from their abusive owners, the Farmers. So the main goal of the game is to avoid a variety of barriers like wooden fences, rocks, and even the farmers. In the way of escaping, you, as the leading cow can find other stranded Ox to become STRONGER TOGETHER as a herd. The bigger the herd, the more success you will have in ramming through destructible obstacles. You need to avoid falling into the water or GAME-OVER. Save other Ox to destroy bigger obstacles. If your herd can not destroy the obstacle, then GAME-OVER.
+
+You should attach the gaming device to your waist and lean forward, backward, left, and right to control the leading Ox. Or you can use your voice command to control it too. Moreover, you still can play this game by pressing the key "A" to move left, press the key "D" to move right. 
 
 *Include videos or screencaptures of both the system and the controller.*
 
@@ -92,8 +102,9 @@ Answer the following:
 *your answer here*
 
 ### What worked well about the controller and what didn't?
-
 *your answer here*
+Using the accelerometer to sense the movement of players worked really well. It can accurately detect the movement and control the game object fairly easily. But the thing that didn't work well was the voice controlling using the microphone because of the limitations of the quality of the microphone. The audio collected by the microphone has a lot of background noise and it affects the quality of voice recognition. 
+
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 

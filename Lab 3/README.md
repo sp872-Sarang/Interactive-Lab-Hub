@@ -96,7 +96,7 @@ You should attach the gaming device to your waist and lean forward, backward, le
 
 *Include videos or screencaptures of both the system and the controller.*
 
-##[Link to all the videos and screencaptures ](https://drive.google.com/drive/folders/1zwReV9ImaQQwHsVr1GLD5uhU1RIZLAHG?usp=sharing)
+## [Link to all the videos and screencaptures ](https://drive.google.com/drive/folders/1zwReV9ImaQQwHsVr1GLD5uhU1RIZLAHG?usp=sharing)
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)

@@ -1,4 +1,4 @@
-# You're a wizard, [Student Name Here]
+# You're a wizard, Panda Xu!
 
 <img src="https://pbs.twimg.com/media/Cen7qkHWIAAdKsB.jpg" height="400">
 
@@ -71,13 +71,14 @@ Due to the pandemic, the chance people go out and workout is significantly reduc
 When players lean forward, backward, left, and right, the object in the game will move accordingly based on the player's physical movement.
 
 Players can also control the game using voice commands. They can say "Turn Left" or "Turn Right" to control the game characters.
-![P1: Sketch1](./imag/Sketch1.png)
-![P2: Sketch2](./imag/Sketch2.png)
+![P1: Sketch1](./img/Sketch1.jpg)
+![P2: Sketch2](./img/Sketch2.jpg)
 
 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
+Yimeng Sun: It is a very cool application to control game consoles using voice, definitely something I never thought i needed! I am happy to see more potential extensions than turning left and right.
 
 ## Prototype your system
 
@@ -96,25 +97,24 @@ You should attach the gaming device to your waist and lean forward, backward, le
 
 *Include videos or screencaptures of both the system and the controller.*
 
+# [Link to all the videos and screencaptures ](https://drive.google.com/drive/folders/1zwReV9ImaQQwHsVr1GLD5uhU1RIZLAHG?usp=sharing)
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
 Answer the following:
 
 ### What worked well about the system and what didn't?
-*your answer here*
+The device is very convenient and portable as it has a battery attached to it and players can carry it around. The gaming experience is really good as well but there are still some bugs in the game that I didn't have time to fix. 
 
 ### What worked well about the controller and what didn't?
-*your answer here*
 Using the accelerometer to sense the movement of players worked really well. It can accurately detect the movement and control the game object fairly easily. But the thing that didn't work well was the voice controlling using the microphone because of the limitations of the quality of the microphone. The audio collected by the microphone has a lot of background noise and it affects the quality of voice recognition. 
 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-*your answer here*
+For this lab, I made use of the accelerometer and the microphone to collect user movement and audio by learning the  I/O method from the Woz interactions. I also use the technic of building a server to interact with the device to make it more autonomous.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-*your answer here*
+I can use my system to create a dataset of the user voice commands and gesture movement when they interact with my device. Besides the microphone and accelerometer, I can also put a camera on it to capture video data to enhance gaming experience. 
 

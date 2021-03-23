@@ -95,7 +95,7 @@ For a demonstration of how my smart device work, I wrote a simple game using Uni
 You should attach the gaming device to your waist and lean forward, backward, left, and right to control the leading Ox. Or you can use your voice command to control it too. Moreover, you still can play this game by pressing the key "A" to move left, press the key "D" to move right. 
 
 *Include videos or screencaptures of both the system and the controller.*
-
+[Link to all the videos and screencaptures ](https://drive.google.com/drive/folders/1zwReV9ImaQQwHsVr1GLD5uhU1RIZLAHG?usp=sharing)
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
@@ -103,6 +103,7 @@ Answer the following:
 
 ### What worked well about the system and what didn't?
 *your answer here*
+The device is very convenient and portable as it has a battery attached to it and players can carry it around. The gaming experience is really good as well but there are still some bugs in the game that I didn't have time to fix. 
 
 ### What worked well about the controller and what didn't?
 *your answer here*
@@ -112,9 +113,11 @@ Using the accelerometer to sense the movement of players worked really well. It 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
 *your answer here*
+For this lab, I made use of the accelerometer and the microphone to collect user movement and audio by learning the  I/O method from the Woz interactions. I also use the technic of building a server to interact with the device to make it more autonomous.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 *your answer here*
+I can use my system to create a dataset of the user voice commands and gesture movement when they interact with my device. Besides the microphone and accelerometer, I can also put a camera on it to capture video data to enhance gaming experience. 
 

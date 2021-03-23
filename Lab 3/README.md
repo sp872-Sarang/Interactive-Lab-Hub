@@ -71,8 +71,8 @@ Due to the pandemic, the chance people go out and workout is significantly reduc
 When players lean forward, backward, left, and right, the object in the game will move accordingly based on the player's physical movement.
 
 Players can also control the game using voice commands. They can say "Turn Left" or "Turn Right" to control the game characters.
-![P1: Sketch1](./imag/Sketch1.png)
-![P2: Sketch2](./imag/Sketch2.png)
+![P1: Sketch1](./img/Sketch1.png)
+![P2: Sketch2](./img/Sketch2.png)
 
 
 ## Share your idea sketches with Zoom Room mates and get feedback

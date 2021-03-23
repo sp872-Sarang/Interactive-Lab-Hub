@@ -88,6 +88,7 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+
 Due to the pandemic, the chance people go out and workout is significantly reduced. To encourage people to work out and have some physical exercise, my idea is to create an interactive gaming sensor using Rasberry pi. that allows players to physically move their bodies while gaming. The sensors I will be using for the lab are a microphone to collect audio and an accelerometer to collect players' movement. 
 When players lean forward, backward, left, and right, the object in the game will move accordingly based on the player's physical movement. Players can also control the game using voice commands. They can say "Turn Left" or "Turn Right" to control the game characters.
 
@@ -98,6 +99,15 @@ You should attach the gaming device to your waist and lean forward, backward, le
 *Include videos or screencaptures of both the system and the controller.*
 
 # [Link to all the videos and screencaptures ](https://drive.google.com/drive/folders/1zwReV9ImaQQwHsVr1GLD5uhU1RIZLAHG?usp=sharing)
+![P3: pi1](./img/pi1.jpeg)
+![P4: pi2](./img/pi2.jpeg)
+![P5: Play](./img/Play.png)
+![P6: Control](./img/Control.png)
+![P7: Game](./img/Game.png)
+
+[![gameDemo](./gameDemo.png)](https://drive.google.com/file/d/1MskJ1UUsyGyfpDd_qfxMUUNfxNTuaPeb/view?usp=sharing)
+[![movement](./movement.png)](https://drive.google.com/file/d/1uJQ90TkZH9syJJKni5uWvlRMQP5-nnij/view?usp=sharing)
+[![voice](./voice.png)](https://drive.google.com/file/d/1HPEtBhQfaHWEmJNqi8ewdX7kq3TP_oU4/view?usp=sharing)
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)

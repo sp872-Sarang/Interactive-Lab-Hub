@@ -105,9 +105,9 @@ You should attach the gaming device to your waist and lean forward, backward, le
 ![P6: Control](./img/Control.png)
 ![P7: Game](./img/Game.png)
 
-[![gameDemo](./gameDemo.png)](https://drive.google.com/file/d/1MskJ1UUsyGyfpDd_qfxMUUNfxNTuaPeb/view?usp=sharing)
-[![movement](./movement.png)](https://drive.google.com/file/d/1uJQ90TkZH9syJJKni5uWvlRMQP5-nnij/view?usp=sharing)
-[![voice](./voice.png)](https://drive.google.com/file/d/1HPEtBhQfaHWEmJNqi8ewdX7kq3TP_oU4/view?usp=sharing)
+[![gameDemo](./img/gameDemo.png)](https://drive.google.com/file/d/1MskJ1UUsyGyfpDd_qfxMUUNfxNTuaPeb/view?usp=sharing)
+[![movement](./img/movement.png)](https://drive.google.com/file/d/1uJQ90TkZH9syJJKni5uWvlRMQP5-nnij/view?usp=sharing)
+[![voice](./img/voice.png)](https://drive.google.com/file/d/1HPEtBhQfaHWEmJNqi8ewdX7kq3TP_oU4/view?usp=sharing)
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)

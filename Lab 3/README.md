@@ -95,7 +95,9 @@ For a demonstration of how my smart device work, I wrote a simple game using Uni
 You should attach the gaming device to your waist and lean forward, backward, left, and right to control the leading Ox. Or you can use your voice command to control it too. Moreover, you still can play this game by pressing the key "A" to move left, press the key "D" to move right. 
 
 *Include videos or screencaptures of both the system and the controller.*
-[Link to all the videos and screencaptures ](https://drive.google.com/drive/folders/1zwReV9ImaQQwHsVr1GLD5uhU1RIZLAHG?usp=sharing)
+
+##[Link to all the videos and screencaptures ](https://drive.google.com/drive/folders/1zwReV9ImaQQwHsVr1GLD5uhU1RIZLAHG?usp=sharing)
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 

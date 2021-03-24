@@ -80,6 +80,12 @@ Players can also control the game using voice commands. They can say "Turn Left"
 *what was the feedback? Who did it come from?*
 Yimeng Sun: It is a very cool application to control game consoles using voice, definitely something I never thought i needed! I am happy to see more potential extensions than turning left and right.
 
+Songyu Du:
+Wow. This is a really cool idea! A raspberry pi version of switch/wii. A dancing/sports game could a perfect fit to it.
+
+Jingjun Wang: 
+I love how you use the accelerometer and voice input to control the movements of game avatars! I wonder if the distance between the speaker and sound source affects the response time. Using a Bluetooth headphone may also be a good idea!
+
 ## Prototype your system
 
 The system should:
@@ -105,9 +111,9 @@ You should attach the gaming device to your waist and lean forward, backward, le
 ![P6: Control](./img/Control.png)
 ![P7: Game](./img/Game.png)
 
-[![gameDemo](./gameDemo.png)](https://drive.google.com/file/d/1MskJ1UUsyGyfpDd_qfxMUUNfxNTuaPeb/view?usp=sharing)
-[![movement](./movement.png)](https://drive.google.com/file/d/1uJQ90TkZH9syJJKni5uWvlRMQP5-nnij/view?usp=sharing)
-[![voice](./voice.png)](https://drive.google.com/file/d/1HPEtBhQfaHWEmJNqi8ewdX7kq3TP_oU4/view?usp=sharing)
+[![gameDemo](./img/gameDemo.png)](https://drive.google.com/file/d/1MskJ1UUsyGyfpDd_qfxMUUNfxNTuaPeb/view?usp=sharing)
+[![movement](./img/movement.png)](https://drive.google.com/file/d/1uJQ90TkZH9syJJKni5uWvlRMQP5-nnij/view?usp=sharing)
+[![voice](./img/voice.png)](https://drive.google.com/file/d/1HPEtBhQfaHWEmJNqi8ewdX7kq3TP_oU4/view?usp=sharing)
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)

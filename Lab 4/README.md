@@ -86,6 +86,11 @@ Banana 6 touched!
 
 *\*Some students have noted that their banana's look noticeably different from the ones presented in this demo. We firmly reject the accusation that these are not in fact banana's but Twizzlers™. Due to the challenges of remote teaching we cannot debug banana's at this time. We suggest you bring these issues up with the university or your local produce representative*
 
+For this part, I designed a fruit detector that can automatically detect what kind of fruit the user is currently pointing at and play the name of the fruit through an external speaker. 
+
+[![fruit](./img/fruit.png)](https://drive.google.com/file/d/1VNULxjqar-505yFu2TM7wgGGMME-LT3Y/view?usp=sharing)
+
+
 ### Part B
 ### OLED screen
 
@@ -130,9 +135,17 @@ Make a paper display for your project that communicates the state of the Pi and 
  
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
+My design is a smart planter that can automatically water the plant. The smart planter can also provide lighting to allow plants to grow at night. Users also can remotely control the device to water or illuminate the plant. The device also has a built-in sensor to sense the temperate, humidity level, and lighting condition to allow automation or remote monitoring. The display is for showing the humidity level of the soil and the symbol will be filled as the humidity level increase. Moreover, based on the humidity level,  the color of the symbol will turn red, yellow, and blue accordingly. 
+![P1: story1](./images/story1.png)
+![P2: story2](./images/story2.png)
+
 **b. Make a video of your paper display in action.**
+[![video](./images/video.png)](https://drive.google.com/file/d/13GIDSJ2epE32HRXBaB5cxrM2oiy1Fzdc/view?usp=sharing)
+
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+The display is for showing the humidity level of the soil but due to the size of the screen, users have to come closer to be able to see the symbol. However, the point of this design is to realize the automation, even though the user can not read the symbol, the device should still work autonomously.
+
 
 ### Part D
 ### Materiality
@@ -142,8 +155,12 @@ Make a paper display for your project that communicates the state of the Pi and 
 Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently?
 
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
+Some cardboard was used to make the humidity level display. I also used a real humidifier, which is made of plastic, to spray water onto the plant and soil. I used a ziploc plastic bag as a pipe to direct the mist to the soil. For directing the waster mist, one of the candidates I was thinking of was cardboard.
 
 **b. explain the selection.**
+The reason why I didn't use cardboard to direct the water mist was that the cardboard is easy to soften due to moisture and it will be damage over time. Also, the cardboard will absorb the water from the humidifier and reduce the amount of water in the soil. However, the Ziploc bag is made of plastic and will not be damaged by moisture. Also, the seal of the Ziploc can help focus the mist to the soil by sealing part of the bag. 
+![P3: ziploc](./images/ziploc.png)
+
 
 ### Part 2.
 
@@ -152,9 +169,21 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
-1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
-3. "Works like" prototypes: show us what the device can do
-4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
-5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+3. "Works like" prototypes: show us what the device can do.
+** the following answer covers the prompts from 1 to 3.**
+My design is a smart planter that can automatically water the plant. The smart planter can also provide lighting to allow plants to grow at night. Users also can remotely control the device to water or illuminate the plant. The device also has a built-in sensor to sense the temperate, humidity level, and lighting condition to allow automation or remote monitoring. The display is for showing the humidity level of the soil and the symbol will be filled as the humidity level increase. Moreover, based on the humidity level,  the color of the symbol will turn red, yellow, and blue accordingly. 
+Here is the storybord that shows the sketches of the device, how does it look like and its functionalites.
+![P1: story1](./images/story1.png)
+![P2: story2](./images/story2.png)
+The symbol on the display is changing based on the humidity level of the plant:
+![P4: empty_real](./images/empty_real.png)
+![P5: quarter_real](./images/quarter_real.png)
+![P6: half_real](./images/half_real.png)
+![P7: full_real](./images/full_real.png)
+
+5. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
+[![video](./images/video.png)](https://drive.google.com/file/d/13GIDSJ2epE32HRXBaB5cxrM2oiy1Fzdc/view?usp=sharing)
+7. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
 
 

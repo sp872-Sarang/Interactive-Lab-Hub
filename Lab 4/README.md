@@ -191,12 +191,14 @@ The symbol on the display is changing based on the humidity level of the plant:
 ![P7: full_real](./images/full_real.png)
 
 3. "Works like" prototypes: show us what the device can do.
-4. 
+
 The smart planter that can automatically water the plant and provide lighting to allow plants to grow at night. Users also can remotely control the device to water or illuminate the plant. The device also has a built-in sensor to sense the temperate, humidity level, and lighting condition to allow automation or remote monitoring. The display is for showing the humidity level of the soil and the symbol will be filled as the humidity level increase. Moreover, based on the humidity level, the color of the symbol will turn red, yellow, and blue accordingly. 
 
 
-5. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
+4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
+
 [![video](./images/video.png)](https://drive.google.com/file/d/13GIDSJ2epE32HRXBaB5cxrM2oiy1Fzdc/view?usp=sharing)
-7. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+
+5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
 
 

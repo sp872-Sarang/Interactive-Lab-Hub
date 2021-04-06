@@ -140,10 +140,12 @@ My design is a smart planter that can automatically water the plant. The smart p
 ![P2: story2](./images/story2.jpg)
 
 **b. Make a video of your paper display in action.**
+
 [![video](./images/video.png)](https://drive.google.com/file/d/13GIDSJ2epE32HRXBaB5cxrM2oiy1Fzdc/view?usp=sharing)
 
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
 The display is for showing the humidity level of the soil but due to the size of the screen, users have to come closer to be able to see the symbol. However, the point of this design is to realize the automation, even though the user can not read the symbol, the device should still work autonomously.
 
 
@@ -155,9 +157,11 @@ The display is for showing the humidity level of the soil but due to the size of
 Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently?
 
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
+
 Some cardboard was used to make the humidity level display. I also used a real humidifier, which is made of plastic, to spray water onto the plant and soil. I used a ziploc plastic bag as a pipe to direct the mist to the soil. For directing the waster mist, one of the candidates I was thinking of was cardboard.
 
 **b. explain the selection.**
+
 The reason why I didn't use cardboard to direct the water mist was that the cardboard is easy to soften due to moisture and it will be damage over time. Also, the cardboard will absorb the water from the humidifier and reduce the amount of water in the soil. However, the Ziploc bag is made of plastic and will not be damaged by moisture. Also, the seal of the Ziploc can help focus the mist to the soil by sealing part of the bag. 
 ![P3: ziploc](./images/ziploc.png)
 
@@ -169,18 +173,27 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
-2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
-3. "Works like" prototypes: show us what the device can do.
-** the following answer covers the prompts from 1 to 3.**
+
+** the followings cover the prompts from 1 to 3.**
 My design is a smart planter that can automatically water the plant. The smart planter can also provide lighting to allow plants to grow at night. Users also can remotely control the device to water or illuminate the plant. The device also has a built-in sensor to sense the temperate, humidity level, and lighting condition to allow automation or remote monitoring. The display is for showing the humidity level of the soil and the symbol will be filled as the humidity level increase. Moreover, based on the humidity level,  the color of the symbol will turn red, yellow, and blue accordingly. 
 Here is the storybord that shows the sketches of the device, how does it look like and its functionalites.
 ![P1: story1](./images/story1.png)
 ![P2: story2](./images/story2.png)
+
+2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+
+The device looks like a big humidifier plus a lamp and it feels like plastic. The display is made out of cardboard. The device looks heave and the weight is around 10 lbs because it contains a gallon of water.
+
 The symbol on the display is changing based on the humidity level of the plant:
 ![P4: empty_real](./images/empty_real.png)
 ![P5: quarter_real](./images/quarter_real.png)
 ![P6: half_real](./images/half_real.png)
 ![P7: full_real](./images/full_real.png)
+
+3. "Works like" prototypes: show us what the device can do.
+4. 
+The smart planter that can automatically water the plant and provide lighting to allow plants to grow at night. Users also can remotely control the device to water or illuminate the plant. The device also has a built-in sensor to sense the temperate, humidity level, and lighting condition to allow automation or remote monitoring. The display is for showing the humidity level of the soil and the symbol will be filled as the humidity level increase. Moreover, based on the humidity level, the color of the symbol will turn red, yellow, and blue accordingly. 
+
 
 5. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
 [![video](./images/video.png)](https://drive.google.com/file/d/13GIDSJ2epE32HRXBaB5cxrM2oiy1Fzdc/view?usp=sharing)

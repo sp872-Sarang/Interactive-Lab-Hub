@@ -88,7 +88,7 @@ Banana 6 touched!
 
 For this part, I designed a fruit detector that can automatically detect what kind of fruit the user is currently pointing at and play the name of the fruit through an external speaker. 
 
-[![fruit](./img/fruit.png)](https://drive.google.com/file/d/1VNULxjqar-505yFu2TM7wgGGMME-LT3Y/view?usp=sharing)
+[![fruit](./images/fruit.png)](https://drive.google.com/file/d/1VNULxjqar-505yFu2TM7wgGGMME-LT3Y/view?usp=sharing)
 
 
 ### Part B

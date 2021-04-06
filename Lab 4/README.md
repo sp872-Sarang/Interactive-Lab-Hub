@@ -136,8 +136,8 @@ Make a paper display for your project that communicates the state of the Pi and 
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
 My design is a smart planter that can automatically water the plant. The smart planter can also provide lighting to allow plants to grow at night. Users also can remotely control the device to water or illuminate the plant. The device also has a built-in sensor to sense the temperate, humidity level, and lighting condition to allow automation or remote monitoring. The display is for showing the humidity level of the soil and the symbol will be filled as the humidity level increase. Moreover, based on the humidity level,  the color of the symbol will turn red, yellow, and blue accordingly. 
-![P1: story1](./images/story1.jpeg)
-![P2: story2](./images/story2.jpeg)
+![P1: story1](./images/story1.jpg)
+![P2: story2](./images/story2.jpg)
 
 **b. Make a video of your paper display in action.**
 [![video](./images/video.png)](https://drive.google.com/file/d/13GIDSJ2epE32HRXBaB5cxrM2oiy1Fzdc/view?usp=sharing)

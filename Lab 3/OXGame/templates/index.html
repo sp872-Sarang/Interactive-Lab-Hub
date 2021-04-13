@@ -210,9 +210,9 @@
           minimumX++;
           const newVals = [new_x, new_y, new_z].map((c,v) => {
 
-            if(new_x < -4){
+            if(new_x < -1){
               gameInstance.SendMessage("Herd","SetMovementKey","a");
-            } else if (new_x > 4) {
+            } else if (new_x > 1) {
               gameInstance.SendMessage("Herd","SetMovementKey","d");
             } else {
               gameInstance.SendMessage("Herd","SetMovementKey","");

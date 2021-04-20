@@ -90,11 +90,19 @@ Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-La
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
 
+The threshold for controlling the ox character in the game is set to abs(4).
+
 **2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
+
+The sampling is set to respond simultaneously for controlling
 
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
 
+Yes the peak is around 10.
+
 Include links to your code here, and put the code for these in your repo--they will come in handy later.
+
+Here is the [code](https://github.com/30PandaX/Interactive-Lab-Hub/tree/Spring2021/Lab%203/OXGame)
 
 #### Teachable Machines (beta, optional)
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.

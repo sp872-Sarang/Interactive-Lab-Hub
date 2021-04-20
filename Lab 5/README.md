@@ -104,6 +104,9 @@ Include links to your code here, and put the code for these in your repo--they w
 
 Here is the [code](https://github.com/30PandaX/Interactive-Lab-Hub/tree/Spring2021/Lab%203/OXGame)
 
+Here is the game demo based on the accelerometer movement:
+[![gameDemo](./img/gameDemo.png)](https://drive.google.com/file/d/1MskJ1UUsyGyfpDd_qfxMUUNfxNTuaPeb/view?usp=sharing)
+
 #### Teachable Machines (beta, optional)
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.
 
@@ -129,6 +132,17 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
+The model I tried out is object detection and the class of objects I tried out was "person". My design is to target one of my daily issues. I usually get back to my house through the patio door but sometimes if the shade of the door is closed, I will have to pull out my phone to manually open the shade. 
+The interaction is that when the Rasberry Pi detects there is a person walk by, it will help open the shade of the patio automatically.
+
+The picture below shows the device from outside:
+![P1: pi1](./img/IMG_5467.jpeg)
+
+
+The picture below shows the device from inside:
+![P2: pi2](./img/IMG_5466.jpeg)
+
+
 ### Part C
 ### Test the interaction prototype
 
@@ -139,11 +153,15 @@ For example:
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
 
+My design is to target one of my daily issues. I usually get back to my house through the patio door but sometimes if the shade of the door is closed, I will have to pull out my phone to manually open the shade. When the Rasberry Pi detects there is a person walk by, what it supposed to do is to help open the shade of the patio automatically. The only time it failed was due to the WiFi outage. Sometimes when something is very similar to a human being, which is very rare, it might trigger the shade to open.
+
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
 1. How bad would they be impacted by a miss classification?
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
+
+The users are aware of the uncertainties in the system as well as some delays due to network connection. The impact is actually not that bad even though the system falsely detects the object as human. To address this, we can train a more accurate model.  
 
 ### Part D
 ### Characterize your own Observant system
@@ -151,18 +169,34 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+This smart shade opener can help you to open the shade of the patio automatically when the Rasberry Pi detects there is a person walk by. 
+
 * What is a good environment for X?
+It should be put on a patio door or windows that can be see-through so that you can put the camera on the glass. It has to be in an indoor environment because it is not waterproof. 
+
 * What is a bad environment for X?
+It cannot be exposed to outdoor environments because it is not waterproof.
+
 * When will X break?
+It will break when power or network outage.
+
 * When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+If there is a network outage, the Pi will not be able to communicate with IFTTT to make the API call to control the shade.
+
 
 **Include a short video demonstrating the answers to these questions.**
+
+[![demo1](./img/vid1.png)](https://drive.google.com/file/d/16GUs_ELdHrpuVInJLrA5WIDR6k4KHejM/view?usp=sharing)
+
+The detailed answer to this prompt is also included in the next video.
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **Include a short video demonstrating the finished result.**
+
+![P1: pi3](./img/person_detect.png)
+![P1: pi4](./img/person_detect_2.png)
+[![demo2](./img/vid2.png)](https://drive.google.com/file/d/1F8aiiZ8-XZoV1t-gUlWepD78AAuiOTLc/view?usp=sharing)
 

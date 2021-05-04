@@ -27,13 +27,14 @@ MQTT is a lightweight messaging portal invented in 1999 for low bandwidth networ
 
 Setting up a broker isn't much work but for the purposes of this class you should all use the broker we've set up for you. 
 
+
 ### Useful Tooling
 
 Debugging and visualizing what's happening on your MQTT broker can be helpful. We like [MQTT Explorer](http://mqtt-explorer.com/). You can connect by putting in the settings from the image below.
 
 
 
-![input settings](/Users/ilanmandel/Documents/IDD/Interactive-Lab-Hub/Lab 6/imgs/mqtt_explorer.png)
+![input settings](https://github.com/FAR-Lab/Interactive-Lab-Hub/blob/Spring2021/Lab%206/imgs/mqtt_explorer.png?raw=true)
 
 
 
@@ -41,13 +42,27 @@ Once connected you should be able to see all the messaged on the IDD topic. From
 
 
 
-## Send and Receive 
+## Send and Receive
 
-[sender.py](./sender.py) and and [reader.py](./reader.py) show you the basics of using the mqtt in python.  Lets spend a few minutes running these and seeing how messages are transferred and show up. 
+[sender.py](./sender.py) and and [reader.py](./reader.py) show you the basics of using the mqtt in python.  Lets spend a few minutes running these and seeing how messages are transferred and show up.
 
+**Running Examples**
 
+* Install the packages from `requirements.txt`, ideally in a python environment. We've been using the circuitpython environment we setup earlier this semester. To install them do `pip install -r requirements.txt`
+* to run `sender.py` type `python sender.py` and fill in a topic name, then start sending messages. You should see them on MQTT Explorer
+* to run `reader.py` type `python reader.py` and you should see any messages being published to `IDD/` subtopics.
 
-To run these examples make sure to install the packages from `requirements.txt`
+Running sender.py:
+
+![image](/imgs/3.png)
+
+Running reader.py:
+
+![image](/imgs/4.png)
+
+On MQTT explorer:
+
+![image](/imgs/5.png)
 
 
 ## The One True ColorNet
@@ -76,18 +91,53 @@ Of course not! You can got to [https://one-true-colornet.glitch.me/](https://one
 
 Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
 
+We called our design "Food Surveillance System" because we were thinking that our food, especially those delicious snacks are the most important thing we care about in our apartment. 
+
 
 
 ## Make it your own
 
-Find at least one class (more are okay) partner, and design a distributed application together. 
+I worked this lab with Songyu Du and Zhonghao Zhan.
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+We called our design "Food Surveillance System" because we were thinking that our food, especially those delicious snacks are the most important thing we care about in our apartment. The surveillance system in which people could get sound alert remotely when someone (food thief) is trying to "steal" food and could give sound message back to the theif to either allow or not allow him/her to eat that food. This could be a helpful system for people who's not living alone, having roommate/family member who likes to eat food that does not belong to them, especially when people are not at home. It's convenient for the food owner to get sound alert remotely realtime about food stealing behavior. However, the food owner does not necessarily feel against this food stealing behavior all the time, like he/she may actually want to share certain food (especially food that expires soon lol) with the "thief", so it would be convenient to also give message back remotely realtime to express onwer's attitude.
+
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+The architecture of the system is shown in the diagram below. The input, output and computation and parts and connections are labeled accordingly. 
+
+When food thief touches owner's food, say "orange", his/her side of the system would publish "orange is touched" to the topic *IDD/foodserv/food*. The food owner side subscribes to this topic and the speaker on his/her side would play "orange is touched." The pi camera is always on to capture who's the thief because there could be multiple thieves in the house (such a fun place...), and the video would be streamed realtime and accessed from owner's personal device (phone, PC, etc.). The food owner could decide whether he/she wants the thief to eat that orange, with the help of the surveillance video as well, and press either "yes" or "no" button for his/her decision. If "yes" is pressed, the owner side of the system would publish "go ahead and enjoy it" to the topic *IDD/foodserv/button*, or if "no" is pressed, it would publish "do not touch my food" to the topic. The theif side subscribes to this topic and the speaker on his/her side would play the corresponding message.
+
+![architecture](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%206/imgs/diagram.jpg)
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
+We prototyped the **thief** side of system as shown in the pictures below.
+
+A pi camera and a speaker are connected to the raspberry pi.
+
+![cap_cam](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%206/imgs/cap_cam.jpg)
+
+A few types of the owner's food are connected to the capacitance sensor using alligator clips and copper wire. This sensor is also connected to the raspberry pi. The theif would absolutely knows how to interact with the system because what he/she only does is to steal food (by touching the food). He/she doesn't have to initially know the speaker also plays sound because he/she would know when it plays sound.
+
+![cap_setup](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%206/imgs/cap_setup.jpg)
+
+We prototyped the **owner** side of system as shown in the pictures below.
+
+Two buttons and a speaker are connected to the raspberry pi. The owner would know which button to press for his/her decision.
+![control_setup](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%206/imgs/control_setup.jpg)
+
+Below is a screenshot of the streamed video of the thief on food owner's personal device. The owner could access it from a browser.
+![streaming](https://github.com/sonipapa/Interactive-Lab-Hub/blob/Spring2021/Lab%206/imgs/streaming.png)
+
+The files `cap_food.py` is for the theif side and `buttons.py` is for the owner side. We also followed the instruction from [Video Streaming with Raspberry Pi Camera](https://randomnerdtutorials.com/video-streaming-with-raspberry-pi-camera/) for the food owner to actually see what is going on with his/her food (to see who is the food thief) after getting the alert from the speaker (`survilliance.py`).
+
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+In the video demo below, the theif holds the food in front of the pi camera only for this demo video's audience to know what food is touched.
+
+[![Video demo](https://img.youtube.com/vi/7Vd0PtH7olc/maxresdefault.jpg)](https://youtu.be/7Vd0PtH7olc)
+(click to view the vid)
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.

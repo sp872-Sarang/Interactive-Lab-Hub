@@ -101,13 +101,14 @@ I worked this lab with Songyu Du and Zhonghao Zhan.
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
-We called our design "Food Surveillance System" because we were thinking that our food, especially those delicious snacks are the most important thing we care about in our apartment. The surveillance system in which people could get sound alert remotely when someone (food thief) is trying to "steal" food and could give sound message back to the theif to either allow or not allow him/her to eat that food. This could be a helpful system for people who's not living alone, having roommate/family member who likes to eat food that does not belong to them, especially when people are not at home. It's convenient for the food owner to get sound alert remotely realtime about food stealing behavior. However, the food owner does not necessarily feel against this food stealing behavior all the time, like he/she may actually want to share certain food (especially food that expires soon lol) with the "thief", so it would be convenient to also give message back remotely realtime to express onwer's attitude.
+We called our design "Food Surveillance System" because we were thinking that our food, especially those delicious snacks is the most important thing we care about in our apartment. Therefore, we designed this Food Surveillance System that is able to inform the food owner when their food is touched. Then the food owner will have a chance to press yes or no to inform the food eater if is okay to eat their food.
+
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
 The architecture of the system is shown in the diagram below. The input, output and computation and parts and connections are labeled accordingly. 
 
-When food thief touches owner's food, say "orange", his/her side of the system would publish "orange is touched" to the topic *IDD/foodserv/food*. The food owner side subscribes to this topic and the speaker on his/her side would play "orange is touched." The pi camera is always on to capture who's the thief because there could be multiple thieves in the house (such a fun place...), and the video would be streamed realtime and accessed from owner's personal device (phone, PC, etc.). The food owner could decide whether he/she wants the thief to eat that orange, with the help of the surveillance video as well, and press either "yes" or "no" button for his/her decision. If "yes" is pressed, the owner side of the system would publish "go ahead and enjoy it" to the topic *IDD/foodserv/button*, or if "no" is pressed, it would publish "do not touch my food" to the topic. The theif side subscribes to this topic and the speaker on his/her side would play the corresponding message.
+The banana, which is food in our case, is in the food eater side. When the food eater pick up the food, the pi in food owner side will say "cookies is touched!" over the speaker to inform that the food is bing touched. The food owners can press the yes or no button to indicate if they want to share the food. The pi speaker in food eater side will say "Go ahead and enjoy it!" of "Don't touoch my food" to inform the eater.
 
 ![architecture](imgs/diagram.jpg)
 
@@ -119,7 +120,7 @@ A pi camera and a speaker are connected to the raspberry pi.
 
 ![cap_cam](imgs/cap_cam.jpg)
 
-A few types of the owner's food are connected to the capacitance sensor using alligator clips and copper wire. This sensor is also connected to the raspberry pi. The theif would absolutely knows how to interact with the system because what he/she only does is to steal food (by touching the food). He/she doesn't have to initially know the speaker also plays sound because he/she would know when it plays sound.
+We used alligator clips and copper wires to connect several types of food to the capacitive sensor, which is connected to the Raspberry Pi. The food eater will know how to interact with the system because all they need to do is to pick up the food and get informed by the speaker if they are supposed to eat it.
 
 ![cap_setup](imgs/cap_setup.jpg)
 
@@ -131,11 +132,9 @@ Two buttons and a speaker are connected to the raspberry pi. The owner would kno
 Below is a screenshot of the streamed video of the thief on food owner's personal device. The owner could access it from a browser.
 ![streaming](imgs/streaming.png)
 
-The files `cap_food.py` is for the theif side and `buttons.py` is for the owner side. We also followed the instruction from [Video Streaming with Raspberry Pi Camera](https://randomnerdtutorials.com/video-streaming-with-raspberry-pi-camera/) for the food owner to actually see what is going on with his/her food (to see who is the food thief) after getting the alert from the speaker (`survilliance.py`).
-
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
-In the video demo below, the theif holds the food in front of the pi camera only for this demo video's audience to know what food is touched.
+Here is the video that shows the interaction between the Food Surveillance System, a food eater, and a food owener
 
 [![Video demo](https://img.youtube.com/vi/7Vd0PtH7olc/maxresdefault.jpg)](https://youtu.be/7Vd0PtH7olc)
 (click to view the vid)

@@ -108,7 +108,7 @@ We called our design "Food Surveillance System" because we were thinking that ou
 
 The architecture of the system is shown in the diagram below. The input, output and computation and parts and connections are labeled accordingly. 
 
-The banana, which is food in our case, is in the food eater side. When the food eater pick up the food, the pi in food owner side will say "cookies is touched!" over the speaker to inform that the food is bing touched. The food owners can press the yes or no button to indicate if they want to share the food. The pi speaker in food eater side will say "Go ahead and enjoy it!" of "Don't touoch my food" to inform the eater.
+The banana, which is snack in our case, is in the food eater side. When the food eater pick up the food, the pi in food owner side will say "cookies is touched!" over the speaker to inform that the food is bing touched. The food owners can press the yes or no button to indicate if they want to share the food. The pi speaker in food eater side will say "Go ahead and enjoy it!" of "Don't touoch my food" to inform the eater.
 
 ![architecture](imgs/diagram.jpg)
 

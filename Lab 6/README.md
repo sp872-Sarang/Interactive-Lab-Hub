@@ -110,7 +110,6 @@ The architecture of the system is shown in the diagram below. The input, output 
 
 The banana, which is snack in our case, is in the food eater side. When the food eater pick up the food, the pi in food owner side will say "cookies is touched!" over the speaker to inform that the food is bing touched. The food owners can press the yes or no button to indicate if they want to share the food. The pi speaker in food eater side will say "Go ahead and enjoy it!" of "Don't touoch my food" to inform the eater.
 
-![architecture](imgs/diagram.jpg)
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 

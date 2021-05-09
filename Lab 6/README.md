@@ -27,13 +27,14 @@ MQTT is a lightweight messaging portal invented in 1999 for low bandwidth networ
 
 Setting up a broker isn't much work but for the purposes of this class you should all use the broker we've set up for you. 
 
+
 ### Useful Tooling
 
 Debugging and visualizing what's happening on your MQTT broker can be helpful. We like [MQTT Explorer](http://mqtt-explorer.com/). You can connect by putting in the settings from the image below.
 
 
 
-![input settings](/Users/ilanmandel/Documents/IDD/Interactive-Lab-Hub/Lab 6/imgs/mqtt_explorer.png)
+![input settings](https://github.com/FAR-Lab/Interactive-Lab-Hub/blob/Spring2021/Lab%206/imgs/mqtt_explorer.png?raw=true)
 
 
 
@@ -41,13 +42,27 @@ Once connected you should be able to see all the messaged on the IDD topic. From
 
 
 
-## Send and Receive 
+## Send and Receive
 
-[sender.py](./sender.py) and and [reader.py](./reader.py) show you the basics of using the mqtt in python.  Lets spend a few minutes running these and seeing how messages are transferred and show up. 
+[sender.py](./sender.py) and and [reader.py](./reader.py) show you the basics of using the mqtt in python.  Lets spend a few minutes running these and seeing how messages are transferred and show up.
 
+**Running Examples**
 
+* Install the packages from `requirements.txt`, ideally in a python environment. We've been using the circuitpython environment we setup earlier this semester. To install them do `pip install -r requirements.txt`
+* to run `sender.py` type `python sender.py` and fill in a topic name, then start sending messages. You should see them on MQTT Explorer
+* to run `reader.py` type `python reader.py` and you should see any messages being published to `IDD/` subtopics.
 
-To run these examples make sure to install the packages from `requirements.txt`
+Running sender.py:
+
+![image](imgs/3.png)
+
+Running reader.py:
+
+![image](imgs/4.png)
+
+On MQTT explorer:
+
+![image](imgs/5.png)
 
 
 ## The One True ColorNet
@@ -76,18 +91,51 @@ Of course not! You can got to [https://one-true-colornet.glitch.me/](https://one
 
 Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
 
+We called our design "Food Surveillance System" because we were thinking that our food, especially those delicious snacks are the most important thing we care about in our apartment. 
+
 
 
 ## Make it your own
 
-Find at least one class (more are okay) partner, and design a distributed application together. 
+I worked this lab with Songyu Du and Zhonghao Zhan.
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+We called our design "Food Surveillance System" because we were thinking that our food, especially those delicious snacks is the most important thing we care about in our apartment. Therefore, we designed this Food Surveillance System that is able to inform the food owner when their food is touched. Then the food owner will have a chance to press yes or no to inform the food eater if is okay to eat their food.
+
+
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+The architecture of the system is shown in the diagram below. The input, output and computation and parts and connections are labeled accordingly. 
+
+The banana, which is snack in our case, is in the food eater side. When the food eater pick up the food, the pi in food owner side will say "cookies is touched!" over the speaker to inform that the food is bing touched. The food owners can press the yes or no button to indicate if they want to share the food. The pi speaker in food eater side will say "Go ahead and enjoy it!" of "Don't touoch my food" to inform the eater.
+
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
+We prototyped the **thief** side of system as shown in the pictures below.
+
+A pi camera and a speaker are connected to the raspberry pi.
+
+![cap_cam](imgs/cap_cam.jpg)
+
+We used alligator clips and copper wires to connect several types of food to the capacitive sensor, which is connected to the Raspberry Pi. The food eater will know how to interact with the system because all they need to do is to pick up the food and get informed by the speaker if they are supposed to eat it.
+
+![cap_setup](imgs/cap_setup.jpg)
+
+We prototyped the **owner** side of system as shown in the pictures below.
+
+Two buttons and a speaker are connected to the raspberry pi. The owner would know which button to press for his/her decision.
+![control_setup](imgs/control_setup.jpg)
+
+Below is a screenshot of the streamed video of the thief on food owner's personal device. The owner could access it from a browser.
+![streaming](imgs/streaming.png)
+
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+Here is the video that shows the interaction between the Food Surveillance System, a food eater, and a food owener
+
+[![Video demo](https://img.youtube.com/vi/7Vd0PtH7olc/maxresdefault.jpg)](https://youtu.be/7Vd0PtH7olc)
+(click to view the vid)
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.

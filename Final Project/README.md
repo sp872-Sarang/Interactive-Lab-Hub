@@ -25,7 +25,7 @@ At the beginning stage, we just listed the key components it should have:
 
 Considering the possibility of self-driving or at least remote-controllable, we also attached a camera for monitoring/pattern recognition and a lamp for night lighting. This is the prototype we got:
 
-[![demo2](./img/vid2.png)](https://drive.google.com/file/d/1EwjxWuJTz4neTi9kRxdya0_QexPw24z-/view)
+[![demo2](./imgs/vid2.png)](https://drive.google.com/file/d/1EwjxWuJTz4neTi9kRxdya0_QexPw24z-/view)
 ![image](imgs/IMG_5511.jpeg)
 ![image](imgs/IMG_5504.jpeg)
 
@@ -90,7 +90,7 @@ This file will turn on the system and try to build connection to the camera. At 
 We are considering making this planter to be fully automated and this standard object detection is key to the function. However, due to the time constraint, we were unable to finish it before the project deadline. However, we thought it is still a cool idea to try in the future.
 
 ### 3. Video of someone using your project (or as safe a version of that as can be managed given social distancing)
-[![demo2](./img/vid2.png)](https://drive.google.com/file/d/1EwjxWuJTz4neTi9kRxdya0_QexPw24z-/view)
+[![demo2](./imgs/vid2.png)](https://drive.google.com/file/d/1EwjxWuJTz4neTi9kRxdya0_QexPw24z-/view)
 
 
 ### 4. Reflections on process (What have you learned or wish you knew at the start?)

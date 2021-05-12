@@ -26,6 +26,8 @@ At the beginning stage, we just listed the key components it should have:
 Considering the possibility of self-driving or at least remote-controllable, we also attached a camera for monitoring/pattern recognition and a lamp for night lighting. This is the prototype we got:
 
 ![image](imgs/IMG_5511.jpeg)
+![image](imgs/IMG_5503.jpeg)
+
 
 ## Deliverables
 

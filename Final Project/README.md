@@ -25,6 +25,7 @@ At the beginning stage, we just listed the key components it should have:
 
 Considering the possibility of self-driving or at least remote-controllable, we also attached a camera for monitoring/pattern recognition and a lamp for night lighting. This is the prototype we got:
 
+[![demo2](./img/vid2.png)](https://drive.google.com/file/d/1EwjxWuJTz4neTi9kRxdya0_QexPw24z-/view)
 ![image](imgs/IMG_5511.jpeg)
 ![image](imgs/IMG_5504.jpeg)
 
@@ -48,13 +49,19 @@ After we built up the prototype, we surveyed each components and have a basic sy
 
 ![image](diagram.jpeg)
 
-The following is the basic idea of how the system works:
+The following is the basic idea of how the system works behind stage:
 
 1. Every plant equips with a humidity sensor to monitor the water level of a plant, and a RoboVac dock.
 2. Once a plant's humidity level is low, the sensor will trigger the RoboVac API to search for the target plant communicating through Homebridge.
 3. The camera will continuously identify the target plant through the object detection that was built on our own matching learning model. 
 4. Once the planter sees the target plant, the Homebridge will send the "go_home" command to RoboVac's API.
 5. The RoboVac will start the docking process and will start watering until the humidity level is saturated.
+
+You might be wondering what is the big black box on the RoboVac. It is actually the power source of the system, which contains a power bank that has a 110V plug, a power strip, and two smart plugs that control the lamp and humidifier to turn on and off.
+
+![image](imgs/IMG_5510.jpeg)
+
+
 
 The TFT screen and the Camera module V2 are attached to the designated ports (GPIO I/O header and CSI Camera connector, which is the connector situated between the USB and micro-HDMI ports). The RoboVac and the humidifier are connected by LAN (local area networks) and controlled by the local* Raspberry Pi which attached to the smart planter.
 
@@ -83,8 +90,8 @@ This file will turn on the system and try to build connection to the camera. At 
 We are considering making this planter to be fully automated and this standard object detection is key to the function. However, due to the time constraint, we were unable to finish it before the project deadline. However, we thought it is still a cool idea to try in the future.
 
 ### 3. Video of someone using your project (or as safe a version of that as can be managed given social distancing)
+[![demo2](./img/vid2.png)](https://drive.google.com/file/d/1EwjxWuJTz4neTi9kRxdya0_QexPw24z-/view)
 
-https://drive.google.com/file/d/1EwjxWuJTz4neTi9kRxdya0_QexPw24z-/view
 
 ### 4. Reflections on process (What have you learned or wish you knew at the start?)
 

@@ -131,11 +131,13 @@ I make it look sqaure instead of circle because I think square may look more sha
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+link to [cold water to warm water](https://drive.google.com/file/d/1vyOMOh0e92McZKfjmHNYDvoUl6RLMDCg/view?usp=sharing)
+link to [hot water to warm water](https://drive.google.com/file/d/1LEIBIYmgVekLZLH1DdR5bjpz84HrOCPr/view?usp=sharing)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-
+Alumi - Ashley Dai
 
 # Staging Interaction, Part 2 
 

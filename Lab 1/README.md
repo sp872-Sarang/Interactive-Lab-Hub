@@ -64,7 +64,7 @@ _Players:_ The person with the cup and cup itself will be involed in.
 
 _Activity:_ The cup will use different color of the light to indicate the temperature of the water. The blue means cold ice water, the green means room temperature water, the yellow means warm water and the red means hot water.
 
-_Goals:_ Different people have different preference of the temperature of the water. The color will help them to identify the temperature of the water and user will be able to cool the water or heat the water or drink more carefully.  
+_Goals:_ Different people have different preference of the temperature of the water. The color will help them to identify the temperature of the water and user will be able to cool the water or heat the water or drink water carefully.  
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
@@ -80,15 +80,16 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 \*\***Summarize feedback you got here.**\*\*
 
+Evan Lin: It would be better to change the color of the light gradually.
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
-
+As the interaction is simple, I found that act out the interaction did not seem to be better than the paper. Act out even seems to be a bit overkill in this case
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-
+We think it would be better if the light color can change gradually with respect to the temperature instead of suddenly
 
 ## Part C. Prototype the device
 
@@ -101,17 +102,18 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-
+This tool did not work well with my Mac. After reaching out to the TA and having a debug session, we still could not figure out how to connect iphone with Mac. There's no error message but nothing was shown in the browser.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+As I could not use the tinkerbelle, I decided to manually setup the light. In my first attempt, I set the light to red color and let my friend film the scene. Then I pour the cold water into the cup and then I manually change the color of the light to warm. Then I did the same thing but pouring the hot water into the warm water.
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
-
+After reviewing our video, I found that it was not really clear what the light means. Therefore at the next time, we indicate the temperature as well.
 
 ## Part E. Costume the device
 
@@ -120,9 +122,11 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
+![IDD lab1-3](https://user-images.githubusercontent.com/32943943/132400859-a5ca4ebd-e4b8-4d30-a502-5797b52421d5.jpg)
+
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
-
+I make it look sqaure instead of circle because I think square may look more sharp and futuristic. I imagined people who use this device will most likely be some sit at desk and work with computer. The sqaure shape is more consistent with the shape of the computer, laptop, and phone. I believe the consistency is very important.
 
 ## Part F. Record
 

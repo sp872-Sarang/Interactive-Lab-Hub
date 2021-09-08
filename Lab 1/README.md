@@ -60,36 +60,31 @@ To stage the interaction with your interactive device, think about:
 
 _Setting:_ The interaction happens at the desk, when user is about to drink water in the cup. 
 
-_Players:_ The person with the cup and cup itself will be involed in.
+_Players:_ The person, the cup itself and a lighting coaster will be involed in.
 
-_Activity:_ The cup will use different color of the light to indicate the temperature of the water. The blue means cold ice water, the green means room temperature water, the yellow means warm water and the red means hot water.
+_Activity:_ The coaster will use different color of the light to indicate the temperature of the water in the cup. The blue means cold ice water, the green means room temperature water, the yellow means warm water and the red means hot water.
 
-_Goals:_ Different people have different preference of the temperature of the water. The color will help them to identify the temperature of the water and user will be able to cool the water or heat the water or drink water carefully.  
-
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+_Goals:_ Different people have different preference of the temperature of the water. The color will help them to identify the temperature of the water and user will be able to cool the water, or heat the water, or drink water carefully.  
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
-![image](https://user-images.githubusercontent.com/32943943/132063839-9bac4a24-7927-4300-afca-b756f44c7ddf.png)
-
+Peter has a preference to drink warm water. He believes that drinking warm water has magical power that will bring the wellness. However, he finds it hard to control the temperature of the water. Therefore, he decides to use the lighting coaster. Once he puts the cup on the coaster, the coaster emmits the blue light. This light tells him that the water is cold and he adds more hot water and then the coaster turns yellow! That's the warm water. He is happy to have warm water and have a 'healthy' life. The next time, he has the boiled water in the cup. The coaster now turns red, which indicates that it is a hot water! Therefore, he pour cold water in it and then the coaster turns yellow. 'Healthy' water! Peter is happy.
 
 \*\***Include a picture of your storyboard here**\*\*
 
-Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+![image](https://user-images.githubusercontent.com/32943943/132063839-9bac4a24-7927-4300-afca-b756f44c7ddf.png)
 
 \*\***Summarize feedback you got here.**\*\*
 
-Evan Lin: It would be better to change the color of the light gradually.
+Ashley Dai: gradually change the light will be good.<br>
+Peter Cho: the heat transfer may not be accurate. Therefore, the design may only fit to several kinds of cup.
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
 \*\***Are there things that seemed better on paper than acted out?**\*\*
-As the interaction is simple, I found that act out the interaction did not seem to be better than the paper. Act out even seems to be a bit overkill in this case
+As the interaction was simple, I found that acting out the interaction did not seem to be better than the paper. Acting out even seems to be a bit overkill in this case. <br>
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-We think it would be better if the light color can change gradually with respect to the temperature instead of suddenly
+I thought it would be better if the light color had a sound notification when the light turned to yellow.
 
 ## Part C. Prototype the device
 
@@ -102,24 +97,19 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-This tool did not work well with my Mac. After reaching out to the TA and having a debug session, we still could not figure out how to connect iphone with Mac. There's no error message but nothing was shown in the browser.
+This tool did not work well with my Mac. After reaching out to the TA and having a debug session, we still could not figure out how to connect iphone with Mac. There's no error message but nothing was shown in the browser. I use my laptop's screen to change the color manually instead.
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
-As I could not use the tinkerbelle, I decided to manually setup the light. In my first attempt, I set the light to red color and let my friend film the scene. Then I pour the cold water into the cup and then I manually change the color of the light to warm. Then I did the same thing but pouring the hot water into the warm water.
+As I could not use the tinkerbelle, I decided to manually setup the light. In my first attempt, I use the color paper to represent the coaster and light. I set the paper color to red color to indicate that the water was hot and let my friend filmed the scene. Then I pour the cold water into the cup and I changed the red paper in to yellow paper to indicates it was warm. Then I did the same thing but pouring the hot water into the cold water, which resulted in the warm water.
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
-After reviewing our video, I found that it was not really clear what the light means. Therefore at the next time, we indicate the temperature as well.
+After reviewing our video, I found that changing the color with a paper made the demo is really not smooth. Therefore, I used my laptop's screen to change the color.
 
 ## Part E. Costume the device
-
-Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
 ![IDD lab1-3](https://user-images.githubusercontent.com/32943943/132400859-a5ca4ebd-e4b8-4d30-a502-5797b52421d5.jpg)
@@ -131,7 +121,7 @@ I make it look sqaure instead of circle because I think square may look more sha
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
-link to [cold water to warm water](https://drive.google.com/file/d/1vyOMOh0e92McZKfjmHNYDvoUl6RLMDCg/view?usp=sharing)
+link to [cold water to warm water](https://drive.google.com/file/d/1vyOMOh0e92McZKfjmHNYDvoUl6RLMDCg/view?usp=sharing)<br>
 link to [hot water to warm water](https://drive.google.com/file/d/1LEIBIYmgVekLZLH1DdR5bjpz84HrOCPr/view?usp=sharing)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
@@ -149,7 +139,7 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
-
+Evan Lin: It would be better to change the color of the light gradually.<br>
 ## Make it your own
 
 Do last week’s assignment again, but this time: 

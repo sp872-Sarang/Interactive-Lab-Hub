@@ -140,6 +140,9 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 Evan Lin: It would be better to change the color of the light gradually.<br>
+Donal Michael Thomas Lowsley-Williams: better to sketch the device in 3d instead of 2d.<br>
+Sara Wang: Turn off the light when the room is at the desired temperature.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 

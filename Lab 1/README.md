@@ -67,24 +67,22 @@ _Activity:_ The coaster will use different color of the light to indicate the te
 _Goals:_ Different people have different preference of the temperature of the water. The color will help them to identify the temperature of the water and user will be able to cool the water, or heat the water, or drink water carefully.  
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
-
-Peter has a preference to drink warm water. He believes that drinking warm water has magical power that will bring the wellness. However, he finds it hard to control the temperature of the water. Therefore, he decides to use the lighting coaster. Once he puts the cup on the coaster, the coaster emmits the blue light. This light tells him that the water is cold and he adds more hot water and then the coaster turns yellow! That's the warm water. He is happy to have warm water and have a 'healthy' life. The next time, he has the boiled water in the cup. The coaster now turns red, which indicates that it is a hot water! Therefore, he pour cold water in it and then the coaster turns yellow. 'Healthy' water! Peter is happy.
+<br>Peter has a preference to drink warm water. He believes that drinking warm water has magical power that will bring the wellness. However, he finds it hard to control the temperature of the water. Therefore, he decides to use the lighting coaster. Once he puts the cup on the coaster, the coaster emmits the blue light. This light tells him that the water is cold and he adds more hot water and then the coaster turns yellow! That's the warm water. He is happy to have warm water and have a 'healthy' life. The next time, he has the boiled water in the cup. The coaster now turns red, which indicates that it is a hot water! Therefore, he pour cold water in it and then the coaster turns yellow. 'Healthy' water! Peter is happy.
 
 \*\***Include a picture of your storyboard here**\*\*
-
 ![image](https://user-images.githubusercontent.com/32943943/132063839-9bac4a24-7927-4300-afca-b756f44c7ddf.png)
 
 \*\***Summarize feedback you got here.**\*\*
 
-Ashley Dai: gradually change the light will be good.<br>
-Peter Cho: the heat transfer may not be accurate. Therefore, the design may only fit to several kinds of cup.
+<br>Ashley Dai: gradually change the light will be good.
+<br>Peter Cho: the heat transfer may not be accurate. Therefore, the design may only fit to several kinds of cup.
 
 ## Part B. Act out the Interaction
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
-As the interaction was simple, I found that acting out the interaction did not seem to be better than the paper. Acting out even seems to be a bit overkill in this case. <br>
+<br>As the interaction was simple, I found that acting out the interaction did not seem to be better than the paper. Acting out even seems to be a bit overkill in this case. <br>
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-I thought it would be better if the light color had a sound notification when the light turned to yellow.
+<br>I thought it would be better if the light color had a sound notification when the light turned to yellow.
 
 ## Part C. Prototype the device
 
@@ -97,17 +95,17 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-This tool did not work well with my Mac. After reaching out to the TA and having a debug session, we still could not figure out how to connect iphone with Mac. There's no error message but nothing was shown in the browser. I use my laptop's screen to change the color manually instead.
+<br>This tool did not work well with my Mac. After reaching out to the TA and having a debug session, we still could not figure out how to connect iphone with Mac. There's no error message but nothing was shown in the browser. I use my laptop's screen to change the color manually instead.
 
 ## Part D. Wizard the device
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
-As I could not use the tinkerbelle, I decided to manually setup the light. In my first attempt, I use the color paper to represent the coaster and light. I set the paper color to red color to indicate that the water was hot and let my friend filmed the scene. Then I pour the cold water into the cup and I changed the red paper in to yellow paper to indicates it was warm. Then I did the same thing but pouring the hot water into the cold water, which resulted in the warm water.
+<br>As I could not use the tinkerbelle, I decided to manually setup the light. In my first attempt, I use the color paper to represent the coaster and light. I set the paper color to red color to indicate that the water was hot and let my friend filmed the scene. Then I pour the cold water into the cup and I changed the red paper in to yellow paper to indicates it was warm. Then I did the same thing but pouring the hot water into the cold water, which resulted in the warm water.
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
-After reviewing our video, I found that changing the color with a paper made the demo is really not smooth. Therefore, I used my laptop's screen to change the color.
+<br>After reviewing our video, I found that changing the color with a paper made the demo is really not smooth. Therefore, I used my laptop's screen to change the color.
 
 ## Part E. Costume the device
 
@@ -116,32 +114,31 @@ After reviewing our video, I found that changing the color with a paper made the
 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
-I make it look sqaure instead of circle because I think square may look more sharp and futuristic. I imagined people who use this device will most likely be some sit at desk and work with computer. The sqaure shape is more consistent with the shape of the computer, laptop, and phone. I believe the consistency is very important.
+<br>I make it look sqaure instead of circle because I think square may look more sharp and futuristic. I imagined people who use this device will most likely be some sit at desk and work with computer. The sqaure shape is more consistent with the shape of the computer, laptop, and phone. I believe the consistency is very important.
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
-link to [cold water to warm water](https://drive.google.com/file/d/1vyOMOh0e92McZKfjmHNYDvoUl6RLMDCg/view?usp=sharing)<br>
-link to [hot water to warm water](https://drive.google.com/file/d/1LEIBIYmgVekLZLH1DdR5bjpz84HrOCPr/view?usp=sharing)
+<br>link to [cold water to warm water](https://drive.google.com/file/d/1vyOMOh0e92McZKfjmHNYDvoUl6RLMDCg/view?usp=sharing)
+<br>link to [hot water to warm water](https://drive.google.com/file/d/1LEIBIYmgVekLZLH1DdR5bjpz84HrOCPr/view?usp=sharing)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
-Alumi - Ashley Dai
+<br>Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+<br>Alumi - Ashley Dai
 
 # Staging Interaction, Part 2 
 
-This describes the second week's work for this lab activity.
+<br>This describes the second week's work for this lab activity.
 
 
 ## Prep (to be done before Lab on Wednesday)
 
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
+<br>You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
-Evan Lin: It would be better to change the color of the light gradually.<br>
-Donal Michael Thomas Lowsley-Williams: better to sketch the device in 3d instead of 2d.<br>
-Sara Wang: Turn off the light when the room is at the desired temperature.
+<br>Evan Lin: It would be better to change the color of the light gradually.
+<br>Donal Michael Thomas Lowsley-Williams: better to sketch the device in 3d instead of 2d.
+<br>Sara Wang: Turn off the light when the room is at the desired temperature.
 
 ## Make it your own
 

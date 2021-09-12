@@ -147,4 +147,93 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
 3) We will be grading with an emphasis on creativity. 
 
+## Part A. Plan 
+
+To stage the interaction with your interactive device, think about:
+
+_Setting:_ The interaction happens at the desk, when user wants to drink the water at a **DESIRED** temperature. The coaster will use different color of the light to indicate the temperature of the water in the cup. The blue means cold ice water, the green means room temperature water, the yellow means warm water and the red means hot water. The user will be able to set a range of the temperature as **DESIRED** temperature. When the temperature of the water changes into the **DESIRED** range, the coaster will change the color, vibrate and emmit sound to notify the user. When the temperature goes out of the range of desired temperature, the coaster will change the color, vibrate and emmit a different sound to notify the user.
+
+_Players:_ The person, the cup and a **MAGIC** coaster will be involed in.
+
+_Activity:_ The user set the temperature to a certain range as the desired temperature. User will pour the hot water or the cold water to adjust the temperature of the water in order to reach the desired temperature range. When the temperature enters the range, the coaster changes the color, vibrate and emmit a sound to notify the user. When the temperature goes out of the range of desired temperature, the coaster changes the color, vibrate and emmit a different sound to notify the user.
+
+_Goals:_ Different people have different preference of the temperature of the water. The color will help them to identify the temperature of the water and user will be able to cool the water, or heat the water, or drink water carefully. 
+
+\*\***Describe your setting, players, activity and goals here.**\*\*
+<br>Peter has a preference to drink warm water. He believes that drinking warm water has magical power that will bring the wellness. However, he finds it hard to control the temperature of the water. Therefore, he decides to use the magic coaster. He sets the desired temperature as 40C - 50C and set the color as yellow. Once he puts the cup on the coaster, the coaster emmits the blue light. This light tells him that the water is cold and he adds more hot water and then the coaster turns yellow, vibrates and emmits a sound notification. That's the warm water. He is happy to have warm water and have a 'healthy' life. The next time, he has the boiled water in the cup. The coaster now turns red, which indicates that it is a hot water! Therefore, he pour cold water in it and then the coaster turns yellow. 'Healthy' water! Peter is happy.
+
+\*\***Include a picture of your storyboard here**\*\*
+![image](https://user-images.githubusercontent.com/32943943/132063839-9bac4a24-7927-4300-afca-b756f44c7ddf.png)
+
+\*\***Summarize feedback you got here.**\*\*
+
+<br>Ashley Dai: gradually change the light will be good.
+<br>Peter Cho: the heat transfer may not be accurate. Therefore, the design may only fit to several kinds of cup.
+
+## Part B. Act out the Interaction
+
+\*\***Are there things that seemed better on paper than acted out?**\*\*
+<br>As the interaction was simple, I found that acting out the interaction did not seem to be better than the paper. Acting out even seems to be a bit overkill in this case. <br>
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+<br>I thought it would be better if the light color had a sound notification when the light turned to yellow.
+
+## Part C. Prototype the device
+
+You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
+
+Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
+
+We invented this tool for this lab! 
+
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+
+\*\***Give us feedback on Tinkerbelle.**\*\*
+<br>This tool did not work well with my Mac. After reaching out to the TA and having a debug session, we still could not figure out how to connect iphone with Mac. There's no error message but nothing was shown in the browser. I use my laptop's screen to change the color manually instead.
+
+## Part D. Wizard the device
+
+\*\***Include your first attempts at recording the set-up video here.**\*\*
+<br>As I could not use the tinkerbelle, I decided to manually setup the light. In my first attempt, I use the color paper to represent the coaster and light. I set the paper color to red color to indicate that the water was hot and let my friend filmed the scene. Then I pour the cold water into the cup and I changed the red paper in to yellow paper to indicates it was warm. Then I did the same thing but pouring the hot water into the cold water, which resulted in the warm water.
+
+Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+
+\*\***Show the follow-up work here.**\*\*
+<br>After reviewing our video, I found that changing the color with a paper made the demo is really not smooth. Therefore, I used my laptop's screen to change the color.
+
+## Part E. Costume the device
+
+\*\***Include sketches of what your device might look like here.**\*\*
+![IDD lab1-3](https://user-images.githubusercontent.com/32943943/132400859-a5ca4ebd-e4b8-4d30-a502-5797b52421d5.jpg)
+
+
+\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+<br>I make it look sqaure instead of circle because I think square may look more sharp and futuristic. I imagined people who use this device will most likely be some sit at desk and work with computer. The sqaure shape is more consistent with the shape of the computer, laptop, and phone. I believe the consistency is very important.
+
+## Part F. Record
+
+\*\***Take a video of your prototyped interaction.**\*\*
+<br>link to [cold water to warm water](https://drive.google.com/file/d/1vyOMOh0e92McZKfjmHNYDvoUl6RLMDCg/view?usp=sharing)
+<br>link to [hot water to warm water](https://drive.google.com/file/d/1LEIBIYmgVekLZLH1DdR5bjpz84HrOCPr/view?usp=sharing)
+
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+<br>Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+<br>Alumi - Ashley Dai
+
+# Staging Interaction, Part 2 
+
+<br>This describes the second week's work for this lab activity.
+
+
+## Prep (to be done before Lab on Wednesday)
+
+<br>You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
+
+\*\***Summarize feedback from your partners here.**\*\*
+<br>Evan Lin: It would be better to change the color of the light gradually.
+<br>Donal Michael Thomas Lowsley-Williams: better to sketch the device in 3d instead of 2d.
+<br>Sara Wang: Turn off the light when the room is at the desired temperature.
+
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+
+

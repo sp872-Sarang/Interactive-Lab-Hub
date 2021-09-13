@@ -194,12 +194,12 @@ If you run into technical issues with this tool, you can also use a light switch
 ## Part D. Wizard the device
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
-<br>As I could not use the tinkerbelle, I decided to manually setup the light, made the sound and vibration. I added human interaction and story this time. The video started by introducing my personal preference of the temperature of the water. Then I introduced the magic coaster (which was my phone for the demo purpose). At first, there was a cup with hot water on the 'magic coaster'. I poured the cold water to make it warm. After changing the temperature of the water, I mimic the sound notification and vibration and change the color of the screen to illustrate the interaction. Next time, I did the same thing, but making a cool water warm.
+<br>As I could not use the tinkerbelle, I decided to manually setup the light, made the sound and vibration. This time, I added interaction and story. The video started by introducing my personal preference of the temperature of the water. Then I introduced the magic coaster (which was my phone for the demo purpose). At first, there was a cup with hot water on the 'magic coaster'. I poured the cold water to make it warm. After changing the temperature of the water, I mimic the sound notification and vibration and change the color of the screen to illustrate the interaction. Next time, I did the same thing, but making a cool water warm.
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
-<br>After reviewing our video, I found that I should provide more explanation on the changes that happened to the device to better explain how this device can effectively notify the user of the temperature.
+<br>After reviewing our video, I found that I should provide more storytelling and explanation on the changes that happened to the device to better explain how this device could effectively notify the user of the temperature. This could reflect what the user was thinking when notification(color, vibration, sound) was acting.
 
 ## Part E. Costume the device
 
@@ -208,7 +208,7 @@ Now, hange the goal within the same setting, and update the interaction with the
 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
-<br>I make it look sqaure instead of circle because I think square may look more sharp and futuristic. I imagined people who use this device will most likely be some sit at desk and work with computer. The sqaure shape is more consistent with the shape of the computer, laptop, and phone. I believe the consistency is very important.
+<br>I made it look sqaure instead of circle because I think square looks sharp and futuristic. I imagined people who use this device will most likely be some sit at desk and work with computer. The sqaure shape is more consistent with the shape of the computer, laptop, and phone. The consistency is very important.
 
 ## Part F. Record
 

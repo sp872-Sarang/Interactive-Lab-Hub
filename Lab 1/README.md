@@ -189,16 +189,17 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 <br>After debugging, the Tinkerbelle worked! Not on 5000 but on 5001
+<br>**Update** not working again. I changed the port too but did not seem to work this time.
 
 ## Part D. Wizard the device
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
-<br>As I could not use the tinkerbelle, I decided to manually setup the light. In my first attempt, I use the color paper to represent the coaster and light. I set the paper color to red color to indicate that the water was hot and let my friend filmed the scene. Then I pour the cold water into the cup and I changed the red paper in to yellow paper to indicates it was warm. Then I did the same thing but pouring the hot water into the cold water, which resulted in the warm water.
+<br>As I could not use the tinkerbelle, I decided to manually setup the light, made the sound and vibration. I added human interaction and story this time. The video started by introducing my personal preference of the temperature of the water. Then I introduced the magic coaster (which was my phone for the demo purpose). At first, there was a cup with hot water on the 'magic coaster'. I poured the cold water to make it warm. After changing the temperature of the water, I mimic the sound notification and vibration and change the color of the screen to illustrate the interaction. Next time, I did the same thing, but making a cool water warm.
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
-<br>After reviewing our video, I found that changing the color with a paper made the demo is really not smooth. Therefore, I used my laptop's screen to change the color.
+<br>After reviewing our video, I found that I should provide more explanation on the changes that happened to the device to better explain how this device can effectively notify the user of the temperature.
 
 ## Part E. Costume the device
 
@@ -219,19 +220,6 @@ Now, hange the goal within the same setting, and update the interaction with the
 <br>Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 <br>Alumi - Ashley Dai
 
-# Staging Interaction, Part 2 
-
-<br>This describes the second week's work for this lab activity.
-
-
-## Prep (to be done before Lab on Wednesday)
-
-<br>You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
-
-\*\***Summarize feedback from your partners here.**\*\*
-<br>Evan Lin: It would be better to change the color of the light gradually.
-<br>Donal Michael Thomas Lowsley-Williams: better to sketch the device in 3d instead of 2d.
-<br>Sara Wang: Turn off the light when the room is at the desired temperature.
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 

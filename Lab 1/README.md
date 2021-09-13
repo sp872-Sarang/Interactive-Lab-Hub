@@ -213,8 +213,8 @@ Now, hange the goal within the same setting, and update the interaction with the
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
-<br>link to [cold water to warm water](https://drive.google.com/file/d/1vyOMOh0e92McZKfjmHNYDvoUl6RLMDCg/view?usp=sharing)
-<br>link to [hot water to warm water](https://drive.google.com/file/d/1LEIBIYmgVekLZLH1DdR5bjpz84HrOCPr/view?usp=sharing)
+<br>link to [cold water to warm water](https://drive.google.com/drive/folders/1XhRRkkwz8Dkcnmlb_uLPFZJb5tz6S2ru?usp=sharing)
+<br>link to [hot water to warm water](https://drive.google.com/drive/folders/1XhRRkkwz8Dkcnmlb_uLPFZJb5tz6S2ru?usp=sharing)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 <br>Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 

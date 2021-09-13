@@ -163,19 +163,19 @@ _Goals:_ Different people have different preference of the temperature of the wa
 <br>Peter has a preference to drink warm water. He believes that drinking warm water has magical power that will bring the wellness. However, he finds it hard to control the temperature of the water. Therefore, he decides to use the magic coaster. He sets the desired temperature as 40C - 50C and set the color as yellow. Once he puts the cup on the coaster, the coaster emmits the blue light. This light tells him that the water is cold and he adds more hot water and then the coaster turns yellow, vibrates and emmits a sound notification. That's the warm water. He is happy to have warm water and have a 'healthy' life. The next time, he has the boiled water in the cup. The coaster now turns red, which indicates that it is a hot water! Therefore, he pour cold water in it and then the coaster turns yellow. 'Healthy' water! Peter is happy.
 
 \*\***Include a picture of your storyboard here**\*\*
-![image](https://user-images.githubusercontent.com/32943943/132063839-9bac4a24-7927-4300-afca-b756f44c7ddf.png)
+![image](https://user-images.githubusercontent.com/32943943/133112426-cd0310d8-33ab-4e16-a89f-0215f0e54573.png)
 
 \*\***Summarize feedback you got here.**\*\*
 
-<br>Ashley Dai: gradually change the light will be good.
-<br>Peter Cho: the heat transfer may not be accurate. Therefore, the design may only fit to several kinds of cup.
+<br>Ashley Dai: It may be better to make breathing light effect to notify the user, because this can gently remind the user to drink the water
+<br>Peter Cho: link to your phone and sent notification, so that the user can be notified even if the user cannot see the cup.
 
 ## Part B. Act out the Interaction
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
-<br>As the interaction was simple, I found that acting out the interaction did not seem to be better than the paper. Acting out even seems to be a bit overkill in this case. <br>
+<br>As the interaction was simple, I found that acting out the interaction did not seem to be better than the paper. Acting out even seems to be a bit overkill in this case. The more important part is to demonstrate how the coaster notify the user. <br>
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-<br>I thought it would be better if the light color had a sound notification when the light turned to yellow.
+<br>breathing lighting can be more effective to notify the user
 
 ## Part C. Prototype the device
 
@@ -188,7 +188,7 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-<br>This tool did not work well with my Mac. After reaching out to the TA and having a debug session, we still could not figure out how to connect iphone with Mac. There's no error message but nothing was shown in the browser. I use my laptop's screen to change the color manually instead.
+<br>After debugging, the Tinkerbelle worked! Not on 5000 but on 5001
 
 ## Part D. Wizard the device
 
@@ -203,7 +203,7 @@ Now, hange the goal within the same setting, and update the interaction with the
 ## Part E. Costume the device
 
 \*\***Include sketches of what your device might look like here.**\*\*
-![IDD lab1-3](https://user-images.githubusercontent.com/32943943/132400859-a5ca4ebd-e4b8-4d30-a502-5797b52421d5.jpg)
+![image](https://user-images.githubusercontent.com/32943943/133111912-ae4889bc-7148-455b-99e3-24d8c6112494.png)
 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*

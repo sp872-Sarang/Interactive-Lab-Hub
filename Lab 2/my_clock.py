@@ -46,7 +46,6 @@ else:
     width = disp.width  # we swap height/width to rotate it to landscape!
     height = disp.height
 
-user_time = None
 # Main loop:
 images_dir = 'images/'
 
@@ -89,16 +88,16 @@ def display_image(file):
     # Display image.
     disp.image(image)
 images = create_image_arr()
+reset = False
+user_time = int(strftime("%H")) // 3
 while True:
-    if not buttonA.value and not buttonB.value:
-        user_time = None
-    hour = int(strftime("%H"))
-    h_category = hour // 3
-    user_time = h_category if user_time is None else user_time
+    reset = not buttonA.value and not buttonB.value
+    hour = int(strftime("%H")) // 3
+    user_time = hour if reset else user_time
 
-    if buttonB.value and not buttonA.value:  # just button A pressed
+    if not buttonB.value and buttonA.value:  # just button A pressed
         user_time += 1
-    if buttonA.value and not buttonB.value:  # just button B pressed
+    if not buttonA.value and buttonB.value:  # just button B pressed
         user_time -= 1
 
     user_time %= 8

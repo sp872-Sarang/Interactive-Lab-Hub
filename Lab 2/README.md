@@ -196,6 +196,8 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+![image](https://user-images.githubusercontent.com/32943943/133947977-e03c292e-3903-4255-bcda-e8fa67d84c4e.png)
+
 
 
 # Prep for Part 2

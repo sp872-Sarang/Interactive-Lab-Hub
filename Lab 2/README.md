@@ -186,14 +186,18 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
+***The code is in the my_clock.py***
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+[Interaction with my clock](https://drive.google.com/file/d/1GpEuMtdNOnr8FvvHA-Ja9UlFf_J1C2qH/view?usp=sharing)
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+![image](https://user-images.githubusercontent.com/32943943/133947977-e03c292e-3903-4255-bcda-e8fa67d84c4e.png)
+
 
 
 # Prep for Part 2

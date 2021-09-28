@@ -49,19 +49,24 @@ else:
 # Main loop:
 images_dir = 'images/'
 
-def create_image_arr():
+def create_image_arr(directory):
     res = []
     for i in range(1, 9):
-        res.append(images_dir+str(i)+'.png')
+        res.append(images_dir+directory+str(i)+'.png')
+    return res
+image = Image.new("RGB", (width, height))
+
+def create_theme():
+    res = []
+    for i in range(3):
+        res.append(create_image_arr('theme'+str(i)+'/'))
     return res
 
-def display_image(file):
-    image = Image.new("RGB", (width, height))
-
+def display_image(file, image):
     # Get drawing object to draw on image.
     draw = ImageDraw.Draw(image)
     # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
+    # draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
     disp.image(image)
 
     image = Image.open(file)
@@ -87,23 +92,46 @@ def display_image(file):
 
     # Display image.
     disp.image(image)
-images = create_image_arr()
+# images = create_image_arr()
+theme = 0
 reset = False
 user_time = int(strftime("%H")) // 3
+prevTime = 0
+themes = create_theme()
+print(themes)
+change_theme = 0
+user_time = int(strftime("%H")) // 3
+pre_hit_time = int(strftime("%S"))
 while True:
-    reset = not buttonA.value and not buttonB.value
-    hour = int(strftime("%H")) // 3
-    user_time = hour if reset else user_time
+    cur_hit_time = int(strftime("%S"))
+    if cur_hit_time < pre_hit_time:
+        cur_hit_time += 60
+    if cur_hit_time - pre_hit_time > 5:
+        user_time = int(strftime("%H")) // 3
+    if not buttonA.value and not buttonB.value:
+        theme += 1 
+        pre_hit_time = int(strftime("%S"))
+    theme %= 3
+    
+    # user_time = hour if reset else user_time
+    
+   
 
     if not buttonB.value and buttonA.value:  # just button A pressed
         user_time += 1
+        pre_hit_time = int(strftime("%S"))
     if not buttonA.value and buttonB.value:  # just button B pressed
         user_time -= 1
+        pre_hit_time = int(strftime("%S"))
 
     user_time %= 8
+    if user_time != prevTime:
+        prevTime = user_time
+        print(theme, user_time)
+        display_image(themes[theme][user_time], image)
     print(user_time)
-    display_image(images[user_time])
+    # im = 'images/5.png'
+    # display_image(im)
     
     # print(strftime("%H"))
-    time.sleep(0.1)
-    
+    # time.sleep(0.1)

@@ -217,7 +217,7 @@ Modify the code from last week's lab to make a new visual interface for your new
 <br> 1. Reset do not require pressing any buttons. The clock resets the time for the user if the user does not press the button for 5 seconds
 <br> 2. No flashing screen! Eye friendly
 <br> 3. Change the them of the clock by pressing two buttons! Current available theme: Food theme, Ancient Chinese Character theme, and Plang them
-![7514E024-E6FE-4C76-8D2F-16F42EE78F76_1_105_c](https://user-images.githubusercontent.com/32943943/135014820-91ee71e2-5f27-4a72-ac8b-cae5fe529f5f.jpeg)
+<br> [new features demo link](https://drive.google.com/file/d/1lZVnbKV6mGhgy2lMFAHOCrFhFI6tB3K2/view?usp=sharing)
 
 
 As always, make sure you document contributions and ideas from others explicitly in your writeup.

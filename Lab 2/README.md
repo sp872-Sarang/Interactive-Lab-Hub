@@ -205,12 +205,20 @@ After that, Git will ask you to login to your GitHub account to push the updates
 1. Pick up remaining parts for kit.
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+<br>Angelica: You should make your clock more interactive!
+<br>Ashley: The time range was not really clear if I just looked at the clock
 
 # Lab 2 Part 2
 
 Pull Interactive Lab Hub updates to your repo.
 
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+<br> New features!
+<br> 1. Reset do not require pressing any buttons. The clock resets the time for the user if the user does not press the button for 5 seconds
+<br> 2. No flashing screen! Eye friendly
+<br> 3. Change the them of the clock by pressing two buttons! Current available theme: Food theme, Ancient Chinese Character theme, and Plang them
+![7514E024-E6FE-4C76-8D2F-16F42EE78F76_1_105_c](https://user-images.githubusercontent.com/32943943/135014820-91ee71e2-5f27-4a72-ac8b-cae5fe529f5f.jpeg)
+
 
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 

@@ -101,7 +101,10 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
+<br> The device I made enables food to speak! The device will tell people what kind of dishes people can made using this food, what nutrient is in the food, etc. 
 \*\***Post your storyboard and diagram here.**\*\*
+![image](https://user-images.githubusercontent.com/32943943/135940411-205a83d9-7374-41f3-b66c-6447e6e20cd4.png)
+![image](https://user-images.githubusercontent.com/32943943/135940557-7363e373-b32c-4c41-b5df-437fb56c9fe9.png)
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 

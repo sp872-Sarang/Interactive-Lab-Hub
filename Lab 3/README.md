@@ -101,7 +101,10 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
+<br> The device I made enables food to speak! The device will tell people what kind of dishes people can made using this food, what nutrient is in the food, etc. 
 \*\***Post your storyboard and diagram here.**\*\*
+![image](https://user-images.githubusercontent.com/32943943/135940411-205a83d9-7374-41f3-b66c-6447e6e20cd4.png)
+![image](https://user-images.githubusercontent.com/32943943/135940557-7363e373-b32c-4c41-b5df-437fb56c9fe9.png)
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
@@ -110,6 +113,9 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
+
+<br>[Link to the interaction](https://drive.google.com/file/d/1Z_2Szr9ncQv_gDjmg4q7y2BoMBVwwH-L/view?usp=sharing)
+<br> The dialogue seem the same as the story board, because the conversation is led by the device.
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 

@@ -131,7 +131,9 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+<br> After demo with Angelica, I found that it is very important for the device to understand semantic meaning of the sentence. I did the demo two times and the sentences were different each time. Therefore, being able to understand the semantic meaning and complete the expected task according is very important. Meanwhile, this is quite difficult, because I need to train NLP models with specific data about the food related topics. To simplify the issue, I will just provide the same input everytime for the demo purpose
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+<br> Using a screen to show the ingredients and what the picture of the dishes could be helpful. 
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system

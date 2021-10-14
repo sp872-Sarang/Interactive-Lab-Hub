@@ -123,6 +123,7 @@ Find a partner, and *without sharing the script with your partner* try out the d
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
+<br>I think the dialogue is roughly the same except that the voice was to robotic and cold and sometimes user can bearly hear it. 
 
 # Lab 3 Part 2
 
@@ -135,6 +136,7 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 <br> Using a screen to show the ingredients and what the picture of the dishes could be helpful. 
 3. Make a new storyboard, diagram and/or script based on these reflections.
+<br>![image](https://user-images.githubusercontent.com/32943943/137233180-5995ee42-57d2-426a-8771-0876dbe4b379.png)
 
 ## Prototype your system
 
@@ -146,25 +148,29 @@ The system should:
 *Document how the system works*
 
 *Include videos or screencaptures of both the system and the controller.*
-
+[The video is here](https://drive.google.com/file/d/1ySH6RohUTrDvz2aSLIQjIuS5cPPMfMC6/view?usp=sharing)
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
 Answer the following:
 
 ### What worked well about the system and what didn't?
+
 \*\**your answer here*\*\*
+<br> The dialogue logic flow worked well. The voice of the system is not ideal, because it was too robotic and cold. Some pronunciations were not clear enough. 
 
 ### What worked well about the controller and what didn't?
 
 \*\**your answer here*\*\*
+<br>The controller provides necessary response. However, as this is a wizard version, controller's response time may be a bit long.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
 \*\**your answer here*\*\*
+The system needs to understand semantic meaning of the user input and gives the feedback accordingly. Otherwise, the manual control takes too much efforts. 
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\**your answer here*\*\*
-
+As this device is more of a virtual assistant, I will create a dataset that full of recipes, food nutrient, normal questions in the kitchens and so on. I may use heat sensor to sense the heat of the oven, pan, food, water, so that the user will know when to put and take out the food. 

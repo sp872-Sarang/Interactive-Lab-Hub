@@ -230,9 +230,10 @@ Think about how you want to present the information about what your sensor is se
 When the plant grows bigger and bigger, the frame may constrain the plant's growth. Besides, the position of the leaf may change as it grows. I either need to make a device to keep track of the position of the leaf or manually adjust the frame every day or week. Physical prototype requires a regid frame (wire) to hold the sensor and let the sensor faces towards the leaf. I may also need to extend the wire. 
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+I may pick sketch 2 or 4 to do the prototype
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
-
+The reason I pick design 2 or 4 is that if the sensor was placed over the leave the shadow may affect the color sensing. Therefore, placing the sensor under the leaf may result a more consistent color detection. Besides, the sketch 5 requires much more complicate design and physical requirement and some parts are not even included in the kit. Eventually, I decided to go with sketch 2 or 4.
 
 Build a cardbord prototype of your design.
 

@@ -174,8 +174,12 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+![image](https://user-images.githubusercontent.com/32943943/137759240-1a5d1d1f-150b-4506-b4b5-0007a7337b19.png)
+![image](https://user-images.githubusercontent.com/32943943/137759289-26bba367-73fb-4d92-89cd-3c3447972406.png)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+For first sketch, I need a mouse trap to start with. For the second sketch, I need a motor to move the curtain up and down. For the third sketch, I need a tape to set the sensor on the laptop and monitor the proximity. For the forth sketch, I need a frame to hold the sensor at a particular place that facing at the leave to monitor the color. For the fifth sketch, I need a color changeable glass in order to let the encoder to control the color of the glass. 
+
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
@@ -219,12 +223,16 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+![image](https://user-images.githubusercontent.com/32943943/137770694-e54539ce-c117-49ad-8c9e-68ff411ee6f1.png)
+![image](https://user-images.githubusercontent.com/32943943/137770727-8cd80392-e6f6-4fbe-b62e-dba91873aee9.png)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+When the plant grows bigger and bigger, the frame may constrain the plant's growth. Besides, the position of the leaf may change as it grows. I either need to make a device to keep track of the position of the leaf or manually adjust the frame every day or week. Physical prototype requires a regid frame (wire) to hold the sensor and let the sensor faces towards the leaf. I may also need to extend the wire. 
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
 
 Build a cardbord prototype of your design.
 

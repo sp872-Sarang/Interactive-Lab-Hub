@@ -227,7 +227,7 @@ Think about how you want to present the information about what your sensor is se
 ![image](https://user-images.githubusercontent.com/32943943/137770727-8cd80392-e6f6-4fbe-b62e-dba91873aee9.png)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
-When the plant grows bigger and bigger, the frame may constrain the plant's growth. Besides, the position of the leaf may change as it grows. I either need to make a device to keep track of the position of the leaf or manually adjust the frame every day or week. Physical prototype requires a regid frame (wire) to hold the sensor and let the sensor faces towards the leaf. I may also need to extend the wire. 
+When the plant grows bigger and bigger, the frame may constrain the plant's growth and the weight of the sensor and the wire may be too heavy for certain type of plant. Besides, the position of the leaf may change as it grows. I either need to make a device to keep track of the position of the leaf or manually adjust the frame every day or week. Physical prototype requires a regid frame (wire) to hold the sensor and let the sensor faces towards the leaf. I may also need to extend the wire. 
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 I may pick sketch 2 or 4 to do the prototype
@@ -238,8 +238,7 @@ The reason I pick design 2 or 4 is that if the sensor was placed over the leave 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
-
-
+<br> As this project does not require a rough cardboard prototype because it's mainly the interaction between the sensor and the environment. The user can simply look at the visualized data in the computer. 
 LAB PART 2
 
 ### Part 2
@@ -283,3 +282,5 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+<br> After testing sketch 2 and 4, I found that the sketch 4 is more easy to prototype and effective. The rigid frame has to be adjusted constantly when the leaf was moved accidently by wind, people, and etc. While for sketch 4, the sensor will always be fixed under the leaf and it does not require me to adjust the sensor. Although the weight of the sensor bends the leaf down a little, the stem seemed to be able to sustain the sensor and wire. 
+<br> I attached a video to illustrate what it looks like, how it works and how you can interact with the device [here](https://drive.google.com/file/d/10Rti2RltEFFOkaKg-hyWxZQOQ-2vyp68/view?usp=sharing).

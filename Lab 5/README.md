@@ -217,6 +217,11 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+<br> I had two plants in my room, one is Devil's ivy and the other is (I forgot the name so let's just called it nameless!) I want to train my model to identify two plants so that when there are visitors in my rooms, they can use camera to identify what the plant is. The camera can be either from a phone or raspberry pi, as long as I shared my model with them, they can use it.
+<br> Interaction: use anything that come with a camera and a screen and face the camera towards the plant. The screen should display the information about the plant such as the name, flowers appearance, etc. 
+<br> My experiment: use TeachableMachine to gather the data and train the model. When training the data, I will take picture from multiple angles and lightening so that the model can understand a full picture of the plant. The number of training data should be more than 200 and the number of the data for each angles and lightening should be roughly the same to avoid bias. 
+
+
 ### Part C
 ### Test the interaction prototype
 

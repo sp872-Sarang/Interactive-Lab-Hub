@@ -100,6 +100,22 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+<br> contours detection:
+![image](https://user-images.githubusercontent.com/32943943/139695031-95db4197-30d4-4396-b289-de6d4f5dd543.png)
+<br> contour detection can be used to detect if one image is the same as the other or how people to find the border of the object and detect details that human may not notice.
+
+<br> face detection:
+![image](https://user-images.githubusercontent.com/32943943/139720931-071839b5-3115-4139-ad46-9b3b32c37a54.png)
+Face detection we can design a face screen locker for a pandemic. When the people wear a mask, the face screen locker detects that it is not a face with eyes, nose , mouth and ears. Therefore, the locker will just pop out the password interface. 
+
+<br> flow detection:
+![image](https://user-images.githubusercontent.com/32943943/139720482-40d63a21-2b5c-452b-b8a1-b8603c32c435.png)
+<br> We can use the flow detection at room and detect how poeple move around in the room, where hotspots are. Using these information, people can where to arrange garbage bin, desks, etc.
+
+<br> object detection:
+![image](https://user-images.githubusercontent.com/32943943/139722371-0aa9988d-991e-4210-a913-4eb6fd2e55f0.png)
+<br> The object detection can detect an object in the video. Individuals may use this feature to label and track the they interact with during the daily life. And they can optimize to place object that they interact most nearby.
+
 #### MediaPipe
 
 A more recent open source and efficient method of extracting information from video streams comes out of Google's [MediaPipe](https://mediapipe.dev/), which offers state of the art face, face mesh, hand pose, and body pose detection.
@@ -139,6 +155,7 @@ Try the two main features of this script: 1) pinching for percentage control, an
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
 
+<br> I think percentage is great in controling the speed! For example, if i want to turn down the curtain of the window, I can use a down gesture to indicate the action and use pinching percentage to control the speed of moving down the curtain. The more percentage, the faster. I can also spefify a specific gesture to turn on the light and then use pinch percentage to control the brightness of the light, which seems pretty fun and magical. 
 
 #### Teachable Machines
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple. However, its simplicity is very useful for experimenting with the capabilities of this technology.
@@ -171,7 +188,8 @@ This might take a while to get fully installed. After installation, connect your
 (**Optionally**: You can train your own model, too. First, visit [TeachableMachines](https://teachablemachine.withgoogle.com/train), select Image Project and Standard model. Second, use the webcam on your computer to train a model. For each class try to have over 50 samples, and consider adding a background class where you have nothing in view so the model is trained to know that this is the background. Then create classes based on what you want the model to classify. Lastly, preview and iterate, or export your model as a 'Tensorflow' model, and select 'Keras'. You will find an '.h5' file and a 'labels.txt' file. These are included in this labs 'teachable_machines' folder, to make the PPE model you used earlier. You can make your own folder or replace these to make your own classifier.)
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
-
+![image](https://user-images.githubusercontent.com/32943943/139728621-afe65176-db8a-449a-9e7d-25e630b1b951.png)
+<br> This tools is super useful. It allows more flexibility where I can define a classifier the data I generated and define what each data represent. Compared to OpenCV and MediaPipe, it offers a more higher order interface that allows users to define the dataset and users are able to adjust model based on their interests. However, OpenCV and MediaPipe offers more specific use cases such as contour, hand detection and everything was pretrained. 
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 

@@ -227,16 +227,16 @@ Try out different interaction outputs and inputs.
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it what it is supposed to do? <br> I faced the camera towards my plants and it failed to show the type of the plants!!!!! 
+2. When does it fail? <br> So I started to investiage the issue, then I realized that the camera was upaside down which made images upside down. 
+3. When it fails, why does it fail? <br> Reflecting on my training dataset, I found that my training dataset did not contain any images that were upside down. After flipping my camera, the prediction worked perfectly.
+4. Based on the behavior you have seen, what other scenarios could cause problems? <br> I guess the scenarios that did not trained in the dataset will cause the problem. For example, if I move my plants to my bedrooms while the training pictures were all taken in sitting room, the prediction may go wrong as well. If I detect the plant during the night with indoor lightening instead of during the day with sunlight, it may also be a problem.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? <br> They will not aware of the uncertainties because for humans, the plants all looked different in the same way regardless during the day or the night or in the bedroom or in the sitting room and they want to know the difference. Therefore, these environmental changes did not seems to be an obvious uncertainties to human but it is a problem for the model.
+1. How bad would they be impacted by a miss classification? <br> In the worst case, it could be completely wrong like what I experimented when the camera was upside down. And this could bring huge confussion to users.
+1. How could change your interactive system to address this? <br> I will provide more diverse dataset to my model so that the model can learn more different sample and avoid dataset bias.
+1. Are there optimizations you can try to do on your sense-making algorithm. <br> One way to optimize it is to use another readily available function - Object detection! Our training data will first go through object detection algorithm, and we extract the object from the data, which is the plant. Then, I blur the background and only train the model with plant images. When I use model to detect plant, the camera will capture the images and images will detect the object in the frame. Our model will determine the plant within the object frame. As a result, our model only learn plant information and detect plant features!
 
 ### Part D
 ### Characterize your own Observant system
@@ -252,7 +252,7 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
-
+The video can be found [here](https://drive.google.com/file/d/1dCIR9Z4INbXpoVanZhmD0bp6oZ5KWfQ8/view?usp=sharing)
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.

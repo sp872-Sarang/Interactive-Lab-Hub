@@ -258,3 +258,5 @@ The video can be found [here](https://drive.google.com/file/d/1dCIR9Z4INbXpoVanZ
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+The video can be found [here](https://drive.google.com/file/d/1dCIR9Z4INbXpoVanZhmD0bp6oZ5KWfQ8/view?usp=sharing
+<br> This is the same video as above, which inlucdes both answers and demonstration.

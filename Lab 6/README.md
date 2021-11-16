@@ -150,12 +150,33 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+<br>What is it? A way to connect distant couples/parents and children. The idea is to use a soft cat's paw to pat the user's hand whenever they press a button. This is a subtle way for someone to say that they’re thinking about the other person without having to video call or text message, which is especially useful when they’re busy or in meetings. 
+
+<br>Ideally, we would have wanted the cat paw to be a discreet wearable, but for our prototype, we’ve primarily focused on showing how it works. This is currently also a pair system since we want the users to be intentional about who they are thinking of.
+
+<br>This idea is also inspired by Yujie Tao and Yiran Zhao’s research project.
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+<br>There are two key components for each user:
+<br>1. Button to move the paw of their counterpart. This button sends a message saying “pressed” using mqtt.
+<br>2. “Paw” attached to a servo, controlled remotely by the button from their counterpart. The paw will move whenever a message is received with the string “pressed”
+
+<br>Person A will send button pressed messages to the `person_b` topic and subscribe to `person_a` topic to listen to button pressed messages from Person B. Vice versa for Person B - they will send button pressed messages to `person_a` topic and subscribe to `person_b` topic to listen to button pressed messages from Person A. Effectively, one holds the remote control for the other’s paw.
+![lab6-4](https://user-images.githubusercontent.com/32943943/142012236-3b74eb86-6f10-46dd-b0aa-c9393ae457e6.jpg)
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+<br>We were inspired by natural ways humans show care, and thus decided to use the patting gesture to show that one is thinking of the other. Following the idea of shaking hands with a cat’s paw, a common act people do, we also added a button below our device’s paw that the user can press to show that they acknowledge the thought. To send a pat, we symbolized it with button presses since it is a similar gesture to patting. There are only two buttons that control the system. User A presses the button to send the affection to User B and User B can press User A to indicate that he/she has received the affection. 
+
+Below are some photos we took of the prototyping process:
+Rigid wire poked through a cotton string to easily form the paw’s shape
+![image](https://user-images.githubusercontent.com/32943943/142012533-67686f3f-0d42-4448-8b48-45ac1f5a4c50.png)
+Button attached to the bottom of the paw with an invisible cord
+![image](https://user-images.githubusercontent.com/32943943/142012617-bf25a456-d683-4dd2-83c6-c07bbc74951b.png)
+Overall system prototype
+![image](https://user-images.githubusercontent.com/32943943/142012656-39707730-8c23-4468-9935-4fae79352ba7.png)
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+<br>Video prototype: https://drive.google.com/file/d/1MSA06REz-eNHIBchK-0AbnfdhdFsCtiz/view
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 

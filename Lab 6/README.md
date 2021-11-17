@@ -108,6 +108,10 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+When I touched the sensor, it showed which port I touched. 
+![IMG_6561](https://user-images.githubusercontent.com/32943943/142137427-4274efaf-d394-493d-a4a2-6e6e1e4e79b8.jpeg)
+![IMG_6560](https://user-images.githubusercontent.com/32943943/142137447-b329115d-6cb3-4603-9b2f-6363b3f16bc0.jpeg)
+
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
@@ -142,7 +146,7 @@ You may ask "but what if I missed class?" Am I not admitted into the collective 
 Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-true-colornet.glitch.me/) and become one with the ColorNet on the inter-webs. Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
-
+<br>It's already in the on_message function in the script. It get the data from the topics and display it on the other half of the screen
 
 ### Part E
 ### Make it your own

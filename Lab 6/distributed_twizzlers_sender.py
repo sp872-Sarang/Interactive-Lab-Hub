@@ -23,7 +23,13 @@ mpr121 = adafruit_mpr121.MPR121(i2c)
 while True:
     for i in range(12):
         if mpr121[i].value:
+<<<<<<< HEAD
             val = f"Twizzler {i} touched!"
             print(val)
             client.publish(topic, val)
+=======
+        	val = f"Twizzler {i} touched!"
+        	print(val)
+        	client.publish(topic, val)
+>>>>>>> 51b2cc03cc5625007ea31708d6846319c13c103f
     time.sleep(0.25)

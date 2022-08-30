@@ -90,8 +90,8 @@ Jack is a 34 yr old software engineer who moved here from Italy 3 months ago. he
 
 \*\***Include pictures of your storyboards here**\*\*
 
-![Storyboard_pg1](Lab 1/assets/Imgs/Storyboard_pg1.png)
-![Storyboard_pg2](Lab 1/assets/Imgs/Storyboard_pg2.png)
+![Storyboard_pg1](assets/Imgs/Storyboard_pg1.png)
+![Storyboard_pg2](assets/Imgs/Storyboard_pg2.png)
 
 \*\***Summarize feedback you got here.**\*\*
 
@@ -139,7 +139,7 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Include sketches of what your devices might look like here.**\*\*
 
 ![costume_pg1](assets/Imgs/costume_pg1.png)
-![costume_pg2](Lab 1/assets/Imgs/costume_pg2.png)
+![costume_pg2](assets/Imgs/costume_pg2.png)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 

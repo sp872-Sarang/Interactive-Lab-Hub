@@ -118,17 +118,21 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-The tool worked well. I would love to see a dynamic button and caching of favourite tones and colors when prototyping different interactions. I did realise late that using a VPN will not allow it to connect to the server.
+
+- The tool worked well. I would love to see a dynamic button and caching of favourite tones and colors when prototyping different interactions. I did realise late that using a VPN will not allow it to connect to the server.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+![Link to Video of First attempt](https://drive.google.com/file/d/1uzDMvpd_jEIEHbaqMkraFBuGMURXMTUN/view?usp=sharing)
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
 
+![Link to video with paper prototype](https://drive.google.com/file/d/1FRoO7zJ9trqpaVfZoAWqvydY33ubpcer/view?usp=sharing)
 
 ## Part E. Costume the device
 
@@ -151,10 +155,10 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+![Link to video with Device](https://drive.google.com/file/d/1v1Y-FFEFyuteXqqprD-wTlIsUGZ4MF8u/view?usp=sharing)
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
-# TODO : Add video links here
 
 # Staging Interaction, Part 2 
 

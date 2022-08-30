@@ -69,13 +69,28 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
+### Setting, Players, Activity, Goals
+
+**Setting :** The setting involves a hearing impaired individual (Jack) , who recently moved to a new city alone. As a result, he is often cautious about his safety wishes to be alert, and hence bought an alarm to help fortify his home agaist intruders
+
+**Players :** Jack (the user of the device) , The Door, Door lock , The light based device (Eg: armband)
+
+**Activty :** Jack is unsure if the door is locked or not. Based on the status of the door lock, the device will display Red (Open) or Green(closed).
+When the door is open swung open, door lock is open , the status of the device is Red
+When the door is open closed, door is locked , the status of the device is Green
+The above fuctionality is not dependent on the location of Jack.
+
+**Goals :** Based on the status of the door lock, the user must be informed of the door status (notified through color). 
+
+
+
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
+Jack is a 34 yr old software engineer who moved here from Italy 3 months ago. he lives alone and is still adjusting to his new lifestyle.Since he has a hearing diability, Jack has a smart door lock system installed for his safety , which can is able to read the door lock status (locked/unlocked). When Jack was taking a shower one night , he notices some items in his home were stolen.He does not realize his door alarm has gone off and is beeping, but he cant hear this. Jack is extremely distressed and goes out, and buys "BRIGHT" a smart notification system which alerts users through light. He connects it to his Door lock to notify him if the door is opened or closed. Jack is now able to recieve realtime alerts through his smart wristband (BRIGHT) on the security of his home. He is pleased that he has found a product to feel more secure in his neighbourhood.
 
 \*\***Include pictures of your storyboards here**\*\*
 
-Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
+## TODO : Add image here
 
 \*\***Summarize feedback you got here.**\*\*
 
@@ -86,8 +101,10 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+As the nature of the interaction was simple enough, i did not feel that acting it out was better than I imagined it on paper
 
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+It did occur to me to add a vibration pulse, as users may not always be looking at their device
 
 ## Part C. Prototype the device
 
@@ -100,7 +117,7 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-
+The tool worked well. I would love to see a dynamic button and caching of favourite tones and colors when prototyping different interactions. I did realise late that using a VPN will not allow it to connect to the server.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
@@ -120,8 +137,13 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+## TODO : add photo of costumes
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+- Wristband : Size of the screen which indicates light. Might be better to let the entire armband be the part that lights up rather than a specific part
+- Neck Ornament : Might prove to be the least useful out of the 3, as the user must stay alert of the color/ look down to see the status. 
+- Wall mounted : There is a need to buy multiple devices depending on where you want to place at home. Only useful when user is inside the house. Might need to be used in tandem with Computer/phone to be useful on the go/remote access.
 
 ## Part F. Record
 
@@ -130,7 +152,7 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-
+# TODO : Add video links here
 
 # Staging Interaction, Part 2 
 

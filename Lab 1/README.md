@@ -69,6 +69,7 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
+:point_right:
 ### Setting, Players, Activity, Goals
 
 **Setting :** The setting involves a hearing impaired individual (Jack) , who recently moved to a new city alone. As a result, he is often cautious about his safety wishes to be alert, and hence bought an alarm to help fortify his home agaist intruders
@@ -90,7 +91,8 @@ Jack is a 34 yr old software engineer who moved here from Italy 3 months ago. he
 
 \*\***Include pictures of your storyboards here**\*\*
 
-## TODO : Add image here
+[Storyboard_pg1](Lab 1/assets/Imgs/Storyboard_pg1.png)
+[Storyboard_pg2](Lab 1/assets/Imgs/Storyboard_pg2.png)
 
 \*\***Summarize feedback you got here.**\*\*
 
@@ -137,7 +139,8 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
-## TODO : add photo of costumes
+[costume_pg1](Lab 1/assets/Imgs/costume_pg1.png)
+[costume_pg2](Lab 1/assets/Imgs/costume_pg2.png)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 

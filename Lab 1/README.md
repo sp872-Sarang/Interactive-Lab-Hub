@@ -169,6 +169,10 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
+Feedback : The general feedback among peers was that it was well received. Recommenations to add to the device include
+ - Connect to nearby smart bulbs to notify owners of alarm when device not in vicinity
+ - Add vibration/sound to alert the user when not directly in use
+
 \*\***Summarize feedback from your partners here.**\*\*
 
 ## Make it your own
@@ -178,7 +182,8 @@ You will be assigned three partners from another group. Go to their github pages
 #### Modified Code
  - Added buttons to display image
  - Image of door displayed on device based on color to indicate if door is open or closed
-'''
+
+```
 //In Index.js file
 const closeBtn = document.getElementById('close_imgBtn'); // #F44336
 const openBtn = document.getElementById('open_imgBtn'); // #4CAF50
@@ -216,11 +221,11 @@ socket.on('hex', (val) => {
 	<img id="door_closed" src='static/imgs/closed.png'
 			alt="Image should go here" style="display: none;"/>
 </div>
-'''
+```
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
-3) We will be grading with an emphasis on creativity. 
+Based on the feedback received , vibration functionality was also added and tested in the video. 
+The device vibrates to alarm the user that the door was left open for too long.
+No sound based alarm was used as the target user's are deaf
+Image of door open and closed were used to meet the needs of color blind users 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*

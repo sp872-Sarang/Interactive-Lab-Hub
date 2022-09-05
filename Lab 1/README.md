@@ -173,6 +173,51 @@ You will be assigned three partners from another group. Go to their github pages
 
 ## Make it your own
 
+[Link to Modified Tinkerbell Demo](https://drive.google.com/file/d/1HdZ1Vzf7RcjQ2rk1Ab14fTzU-ClQDOOT/view?usp=sharing)
+
+#### Modified Code
+ - Added buttons to display image
+ - Image of door displayed on device based on color to indicate if door is open or closed
+'''
+//In Index.js file
+const closeBtn = document.getElementById('close_imgBtn'); // #F44336
+const openBtn = document.getElementById('open_imgBtn'); // #4CAF50
+
+socket.on('hex', (val) => {
+    document.body.style.backgroundColor = val
+    if(val == '#F44336'){
+      document.getElementById('door_closed')
+				.style.display = "block";
+  
+      //make other image invisible
+      document.getElementById('door_open')
+            .style.display = "none";
+    }
+    if(val == '#4CAF50'){
+      document.getElementById('door_open')
+				.style.display = "block";
+  
+      //make other image invisible
+      document.getElementById('door_closed')
+            .style.display = "none";
+    }
+  })
+  
+  
+// In index.html
+<div>
+	<button id='close_imgBtn' onclick="show()">Close Door Image</button>
+	<button id='open_imgBtn' onclick="show()">Open Door Image</button>
+	
+</div>
+<div>
+	<img id="door_open" src='static/imgs/open.png'
+            alt="Image should go here" style="display: none;"/>
+	<img id="door_closed" src='static/imgs/closed.png'
+			alt="Image should go here" style="display: none;"/>
+</div>
+'''
+
 Do last week’s assignment again, but this time: 
 1) It doesn’t have to (just) use light, 
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 

@@ -65,6 +65,12 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+     # Draw a black filled box to clear the image.
+    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+
+    time_str = time.strftime("%m/%d/%Y \n%H:%M:%S")
+    y = top
+    draw.text((x, y), time_str, font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)

@@ -201,6 +201,14 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
+### Barebones clock features
+ Screen 1
+ - Single Hour bar to indicate how much of the day has progresses
+ - Tracker to indicate the number of glasses of water to drink (1 for every 3 hrs of the day)
+
+Screen 2
+ - Timer begins when button B is pressed, and only resets if button A and button B is pushed together, else it will run in the background 
+
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock

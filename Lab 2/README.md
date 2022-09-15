@@ -229,6 +229,12 @@ Screen 2
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
+### Comments:
+
+- Comment 1 : Indicate what 'H' bar stands for. It was a difficult to interpret just by viewing the Clock Screen. Adding images of glasses of water might be helpful and better the functionality of the device
+
+- Comment 2 : The overall functionality of the device is good. Would like to see other trackers of time other than glasses of water. Setting a budget for the day to tracker expenditures as the day progresses is nice to see.
+
 # Lab 2 Part 2
 
 Pull Interactive Lab Hub updates to your repo.

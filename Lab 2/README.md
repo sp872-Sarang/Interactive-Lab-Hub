@@ -246,3 +246,28 @@ As always, make sure you document contributions and ideas from others explicitly
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
 
+[Link to Video](https://drive.google.com/file/d/1Lrs1R7aLzuCc10rZIs8Zi2PZ4KUmS8zN/view?usp=sharing)
+
+![Clock](lab2p2_clock_img.png)
+
+#### Modifications to Clock :
+
+- Added current hour in 24hr time format to ease readability
+
+- Added a seconds bar which increments to 60
+
+The insipiration for this clock comes from my need to plan a way to budget my expenses and the movie "In Time"
+
+The concept is to reduce expenditure and indicate if we are going over budget, but to help the user to save more money, the Remaining budget is reduced in decrements every hour. As the day progresses, the user will have lesser money to spend with. The day starts with a set budget but tends to 0 as the day progresses. 
+
+The buttons are used to add/subtract the expenditure incurred in the day (+/- 5 respectively)
+
+If the user goes over the budget of the remaining amount, the colour is changed to red to indicate over expenditure.
+
+
+
+
+
+
+
+

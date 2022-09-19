@@ -1,4 +1,5 @@
 import time
+import math
 import subprocess
 import digitalio
 import board
@@ -74,26 +75,39 @@ def time_convert(sec):
   mins = mins % 60
   return hours,mins,sec #"Time Lapsed = {0}:{1}:{2}".format(int(hours),int(mins),sec))
 
+#global Vars
 start = time.time()
+Budget = 100
+Spent = 0
 
 while True:
     # Draw a black filled box to clear the image.
     #draw.rectangle((0, 0, width, height), outline=0, fill=0)
     if not buttonA.value and  not buttonB.value:
-        start = time.time()
+        Budget = 100
     
     if buttonA.value and not buttonB.value:  # just button B pressed
         
         #disp.fill(color565(255, 255, 255))  # set the screen to white
-        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        #draw.rectangle((0, 0, width, height), outline=0, fill=0)
         
         #while(buttonA.value and not buttonB.value): #button A not pressed
-        counter = time.time()
-        h,m,s = time_convert(counter-start)
+        #counter = time.time()
+        #h,m,s = time_convert(counter-start)
  
-        draw.text((0, 30), "Timer: "+"H: "+str(h)+" M: "+str(m)+" S: "+str(int(s)),font=font, fill=(255, 0, 0))
+        #draw.text((0, 30), "Timer: "+"H: "+str(h)+" M: "+str(m)+" S: "+str(int(s)),font=font, fill=(255, 0, 0))
+        
+        #Button B  reduced money by 5
+        #Budget -= 5
+        Spent += 5
+        #if Budget < 0:
+            #Budget = 0
     
-    if buttonA.value and  buttonB.value:
+    if not buttonA.value and buttonB.value:  # just button B pressed
+        #Button A  increased money by 5
+        Spent -= 5
+    
+    if buttonA.value and  buttonB.value: #if neither are pressed
         
         y = top
         
@@ -105,25 +119,50 @@ while True:
         cursec = int(time.strftime("%S"))
         
         #draw hour bar
-        draw.text((0, 0 + y), 'H:', font=font, fill = (255, 0, 0))
+        line_0 = 'Hrs:'
+        draw.text((0, 0 + y),line_0, font=font, fill = (255, 0, 0))
+        line_0size_x = font.getsize(line_0)[0]
+
+        hbar_width = 24
         
-        hbar_width = 30
-        draw.rectangle((24, 0 + y, 24 + 9*curhour, hbar_width + y), outline=1, fill=(255, 0, 0))
+        draw.rectangle((line_0size_x, 0 + y, 24 + 9*curhour, hbar_width + y), outline=1, fill=(255, 0, 0))
+        draw.text((line_0size_x+5, 0), str(curhour), font=font, fill = "#FFFFFF")
         
-        y += hbar_width
+        y += hbar_width        
         
-        Count_Water = (int(time.strftime("%H")))//3
         
-        line2 = "Did you drink water?"
-        line3 = str(Count_Water)+" Glasses"
+        line2 = "Budget of the day : "+str(Budget)
         draw.text((0, y + 10), line2, font=font, fill="#FFFFFF")
         y += font.getsize(line2)[1]
+        
+        
+        Val_tosub_permin = 4.1
+        Total_valToSub = Val_tosub_permin*curhour
+        RemaingBudget = float(Budget) - Total_valToSub
+        
+        line3 = "Remaining Money : " + str(RemaingBudget)
         draw.text((0, y + 10), line3, font=font, fill="#FFFFFF")
         y += font.getsize(line3)[1]
         
+        line4 = "Spent : " + str(Spent)
+        
+        if(Spent >= RemaingBudget):
+            draw.text((0, y + 10), line4, font=font, fill=(255,0,0))
+        else:
+            draw.text((0, y + 10), line4, font=font, fill=(0,255,0))
+
+        y += font.getsize(line4)[1]
+        
+        
+        steps = 60
+        rec_width = width/steps
+        
+        draw.rectangle((0,30+y, rec_width*cursec, 20+y), outline=1, fill=(255, 0, 0))
+
+        
     disp.image(image, rotation)
-    time.sleep(0.1)
-    
+    time.sleep(0.05)
+
 
 
 

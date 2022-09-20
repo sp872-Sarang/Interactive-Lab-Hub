@@ -7,6 +7,11 @@ For our first Pi project, we will pay homage to the [timekeeping devices of old]
 It is worth spending a little time thinking about how you mark time, and what would be useful in a clock of your own design.
 
 **Please indicate anyone you collaborated with on this Lab here.**
+
+#### Teammates : Sarang Pramode (sp872) and Sara Seulbee Shin (sss294)
+
+Collaberated for Lab2 part2
+
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 ## Prep

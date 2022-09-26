@@ -7,6 +7,11 @@ For our first Pi project, we will pay homage to the [timekeeping devices of old]
 It is worth spending a little time thinking about how you mark time, and what would be useful in a clock of your own design.
 
 **Please indicate anyone you collaborated with on this Lab here.**
+
+#### Teammates : Sarang Pramode (sp872) and Sara Seulbee Shin (sss294)
+
+Collaberated for Lab2 part2
+
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
 ## Prep
@@ -201,15 +206,26 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
+### Barebones clock features
+ Screen 1
+ - Single Hour bar to indicate how much of the day has progresses
+ - Tracker to indicate the number of glasses of water to drink (1 for every 3 hrs of the day)
+
+Screen 2
+ - Timer begins when button B is pressed, and only resets if button A and button B is pushed together, else it will run in the background 
+
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+[LINK TO BAREBONES CLOCK](https://drive.google.com/file/d/1K-CwsD1tcogGA4VFePdfe7Roeb8ET3fT/view?usp=sharing)
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+![Ideas](lab2_partg_Device_Ideas.png)
 
 # Prep for Part 2
 
@@ -217,6 +233,12 @@ After that, Git will ask you to login to your GitHub account to push the updates
   
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+### Comments:
+
+- Comment 1 : Indicate what 'H' bar stands for. It was a difficult to interpret just by viewing the Clock Screen. Adding images of glasses of water might be helpful and better the functionality of the device
+
+- Comment 2 : The overall functionality of the device is good. Would like to see other trackers of time other than glasses of water. Setting a budget for the day to tracker expenditures as the day progresses is nice to see.
 
 # Lab 2 Part 2
 
@@ -227,5 +249,30 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
+
+[Link to Video](https://drive.google.com/file/d/1Lrs1R7aLzuCc10rZIs8Zi2PZ4KUmS8zN/view?usp=sharing)
+
+![Clock](lab2p2_clock_img.png)
+
+#### Modifications to Clock :
+
+- Added current hour in 24hr time format to ease readability
+
+- Added a seconds bar which increments to 60
+
+The insipiration for this clock comes from my need to plan a way to budget my expenses and the movie "In Time"
+
+The concept is to reduce expenditure and indicate if we are going over budget, but to help the user to save more money, the Remaining budget is reduced in decrements every hour. As the day progresses, the user will have lesser money to spend with. The day starts with a set budget but tends to 0 as the day progresses. 
+
+The buttons are used to add/subtract the expenditure incurred in the day (+/- 5 respectively)
+
+If the user goes over the budget of the remaining amount, the colour is changed to red to indicate over expenditure.
+
+
+
+
+
+
 
 

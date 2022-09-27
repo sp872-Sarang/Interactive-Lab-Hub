@@ -58,6 +58,8 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+**Shell file : "greeting.sh" has been added.**
+
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
 ### Speech to Text
@@ -80,6 +82,13 @@ Now, look at which camera you have. Do you have the cylinder camera (likely the 
 Then try `./vosk_demo_mic.sh`
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+```python
+#!/bin/bash
+
+echo "How old are you today?" | festival --tts
+
+arecord -D hw:1,0 -f cd -c1 -r 16000 -d 5 -t wav recorded_mono.wav
+```
 
 ### Serving Pages
 
@@ -113,7 +122,15 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+## [Video of Interaction](https://cornell.zoom.us/rec/share/88suebnLAik0sbKPU7DFl5xcEhZROb_upbi2KRBIbMtSqTllFvhzn2OHAGXsRTpy.Gzs-BHAPNGkGNyOI?startTime=1663967524000)
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+I initially had no context of the device. I was asked by my lab partner to dictate forward/back/left/right commands. 
+
+My assumption was that she would not stop after executing the command but rather continue to perform until the next command is heard or the stop command is issued.
+
+I started issuing commands with a specific set of steps to end the function, towards the end of the interaction as I reasilsed this made the movement more specifc to what I intended.
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!

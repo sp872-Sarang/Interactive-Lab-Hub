@@ -114,7 +114,7 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
-![Storyboard](https://drive.google.com/file/d/1uPkP9j4MusI_6pW5l2bahSG00puSfrPy/view?usp=sharing)
+![Storyboard](imgs/Storyboard.png)
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
@@ -122,7 +122,7 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 ## Here are some of the ways we expect to add depth into how the user interacts with the device
 
-![Expectation](https://drive.google.com/file/d/1U9WrQEjkeqFGSPkDmgNZxaGGPoe7UQFn/view?usp=sharing)
+![Expectation](imgs/Expectations.png)
 
 1) State how far the device needs to travel when mentioning a command
 2) Provide Feedback when in idle condition

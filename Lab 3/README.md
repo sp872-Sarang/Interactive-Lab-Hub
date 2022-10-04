@@ -152,11 +152,25 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 
 For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
 
+
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+ - The sytem needs to be more adaptive to adaptive to user's words.
+ - We were limited by the hardware we use. Users could give feedback on the fly and the device should be more receptive to when the user specifcies a command.
+ - The device should recognise a chain of commands given by the user.
+ - We could not include the stop command as its a phrase which is used to stop the current action. Since the .wav file is first recorded and then passed to the model, we cannot concurrently record and execute with the current architecture 
+
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+- A button can be used to intepret simple commands which the user wished to continue rather than repeatedly stating the device to perform. For example, if the user inteds to move the "car" in the forward direction, they can release the button when they wish the device to stop the operation.
+- Feedback when a command has been completed can be informed through an LED. Another LED in "BLINK" state can infer when the device is awaiting a command and is online.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
+
+![storyboard2](imgs/lab3p2_storyboard.png)
 
 ## Prototype your system
 
@@ -167,26 +181,52 @@ The system should:
 
 *Document how the system works*
 
-*Include videos or screencaptures of both the system and the controller.*
+The system responds to 4 basic commands which can be chained in succession - [left, right, go, back]
+
+The cardboard wheels of the system are tapped to servo motors to user commands as seen in the videos
+
+Since the servo motors are limited to 180 degrees, the motors offer limited mobility and needs to be reset before the next command.
+
+The system can parse and execute the 4 key commands mentioned in a single recording from the user
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
+## Images
+
+![img1](imgs/IMG_2514.jpg)
+![img2](imgs/IMG_2518.jpg)
+
+#
+
+## Videos
+
+[Device Demo 1 (Single Command) - without User](https://drive.google.com/file/d/159DzAuUZxg-ReG1qfzs9FTKXubUDmDPA/view?usp=s)
+
+[Device Demo 2 (Multiple Commands) - without User](https://drive.google.com/file/d/1Xp7RcbA1lyuVbtxi_UlTLrXGDjNdO9Sd/view?usp=sharing)
+
+[Device Demo 3 - With User (No Prior Instructions)](https://drive.google.com/file/d/1l3Ar7KUpg1rgr5NlnSoSmJ6oCIhsryNK/view?usp=sharing)
+
+[Device Demo 4 - With User (Instructions to Control the device given)](https://drive.google.com/file/d/1ZqyQonMIFh12ZNLjsMHi0Jr9JUxV_puY/view?usp=sharing)
+
+#
+
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+The car did move in response to the user. It takes multiple seconds of delay until it moves and sometimes it does not register the correct command.
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+The controller is narrow in what it takes as input. For example, the user could tell it to move, straight, forward and all those commands would not be registered as go.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
-
+The system needs to account for a variety of words depending on the person's linguistic choice. In addition, get rid of the long delay between the speech and the car moving.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+We could study multiple interactions with a variety of people and observe their reactions and success rates in getting the car to do what they want.
+It would also be interesting to having the car talk back if it couldn't understand the command.
 

@@ -2,6 +2,7 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+**Teammates : Sarang Pramode (sp872) and Sara Seulbee Shin (sss294)**
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
 
@@ -176,9 +177,34 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+![initial_sketches](imgs/Initial%20Sketches.png)
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+### 1) Pattern Tracker Game -  Displays combination of LEDs which user must press "in order" to advance to the next round.
+
+ - This design requires us to track the user input and provide a new combination in addition to what is stores in the pi's memory.
+
+### 2) Capacitive Sensor Player - Plays a unique keytone for every capactive touch input
+
+ - A relatively simpler design which requires us to track single input of the user. Combination of tones can also be played out by the pi through a speaker
+### 3) Tic Tac Toe - Play the game of Tic Tac Toe
+
+ - Use LEDs and Buttons to input user intent of X and O
+
+### 4) Battleship - 2 player battleship
+
+ - Similar to the Tic Tac Toe game function, here we track position of ships for 2 players separately. The prototype requires us to use a large number of I/O pins to add LEDs and Buttons to track user input fot both players
+
+### 5) Operation Game - users are intended to take out cutouts without touching the edges of the box
+
+ - Copper wire to complete the circuit when a user tries to remove an object from the body. An LED/speaker is required to provide feedback when the user has made a mistake
+
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
+We will be building the operation game
+
 
 
 ### Part D
@@ -221,15 +247,59 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+## 1) Battleship
+![1](imgs/Battleship.png)
+## 2) Garbage Sensor
+![2](imgs/GarbageSensor.png)
+## 3) Medicine Dispensor
+![3](imgs/MedicineDispenser.png)
+## 4) Operation Game
+![4](imgs/OperationGame.png)
+## 5) Pattern Tracker
+![5](imgs/PatternTracker.png)
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+### 1) Battleship - 2 player battleship
+
+ - Similar to the Tic Tac Toe game function, here we track position of ships for 2 players separately. The prototype requires us to use a large number of I/O pins to add LEDs and Buttons to track user input fot both players
+
+### 2) Garbage Sensor - Track if the trash is full and requires to be haulled
+
+- Prototype requires us to add a housing with a dislay and Ultrasonic sensor to track how full the trash can is and display the same via an OLED screen to the user
+
+### 3) Medicine Dispensor - Dispense timely tablets on intervals
+
+- Creating a Housing compartment for tablets with a motorised gate driven by the Pi.
+- Add either a screen or LED to indicate to the user when to take tablets.
+
+### 4)  Operation Game - users are intended to take out cutouts without touching the edges of the box
+
+ - Copper wire to complete the circuit when a user tries to remove an object from the body. An LED/speaker is required to provide feedback when the user has made a mistake
+
+### 5) Pattern Tracker Game -  Displays combination of LEDs which user must press "in order" to advance to the next round.
+
+ - This design requires us to track the user input and provide a new combination in addition to what is stores in the pi's memory.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+### Chosen design - Operation Game
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+The prototype is required to be of ample size so that users can navigate and select different parts to remove from the box. The prototype should be designed to ensure only a single part can be removed at a time. Ensure feedback is provided through an LED or speaker when the user makes a mistake
+
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+
+# Operation Game
+
+![p2](imgs/proto3.jpeg)
+![p3](imgs/proto2.jpeg)
+![p1](imgs/proto1.jpeg)
 
 
 LAB PART 2

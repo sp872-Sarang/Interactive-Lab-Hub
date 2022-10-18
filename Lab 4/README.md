@@ -345,3 +345,46 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+### Prototype updates
+
+- We improved on the second interation by choosing a more thicker carboard which was laser cut
+
+- We used a capacitive touch sensor and a button which the player can interact with.
+
+- The player must extract the cutouts without touching the walls of the cutout to the walls of the housing which are lined with copper tape.
+
+ - The player is unfortunately met with **Gordan Ramsey** being dissapointed in them in their failure to complete the assignemnt and  save the patient. We thought it would be funny and more interactive compared to a normal buzzer sound as who better to motivate you in a high stress enviroment than Gordan.
+
+ - The prototype uses the other 6 terminals of the touch sensor to record the number of parts which have been removed at the end of which the player has completed the operation! and is met with a compliment
+
+ - After 10 failed attempts the player must reset the board by pressing the button to continue playing.
+
+ ## Difficulties.
+
+ - The cooper tape is flimsey and required constant rework and debudding to get it to work.
+ - A button was damaged and failed to initialize the i2c bus
+ - There was debouncing everytime we tried to take out a part, to prevent this, we added a small wait time between when sensor sensed the parts being removed touched the walls of the housing
+
+ 
+
+# [Video Demo](https://drive.google.com/file/d/1STWV9nYkwoR4j_pUm1aYD3ot-a10upGV/view?usp=sharing)
+
+# Protoype Images
+
+![img1](prototype%20imgs/IMG_2692.jpg)
+![img1](prototype%20imgs/IMG_2694.jpg)
+![img1](prototype%20imgs/IMG_2699.jpg)
+
+![img1](prototype%20imgs/IMG_2700.jpg)
+![img1](prototype%20imgs/IMG_2701.jpg)
+![img1](prototype%20imgs/IMG_2702.jpg)
+
+![img1](prototype%20imgs/IMG_2703.jpg)
+![img1](prototype%20imgs/IMG_2709.jpg)
+
+
+
+
+
+
+

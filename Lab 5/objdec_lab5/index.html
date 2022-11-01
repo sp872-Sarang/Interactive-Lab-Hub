@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Zen Mode Tracker</title>
+</head>
+<style>
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+</style>
+<script>
+    function getphonestate(){
+        fetch('data.csv') 
+        .then(response => response.text())
+        .then(text => {
+            var data = text.split("\n");
+            document.getElementById("dataLabel").innerHTML = data[data.length - 2] + "";
+            document.getElementById("dataLabel").style.backgroundColor = "green";
+            if (data != "Phone Not Detected") {
+              document.getElementById("dataLabel").style.backgroundColor = "red";
+            }
+            
+        })
+    }
+</script>
+    <body onload="getphonestate()">
+        <div>
+            <h1>Phone Status</h1>
+            <h2 id="dataLabel">?</h2>
+            <script>
+            if (data == "Phone Not Detected") {
+              document.getElementById("dataLabel").style.backgroundColor = "green";
+            }
+            </script>
+        </div>
+    </body>
+</html>
+  

@@ -1,6 +1,6 @@
 # Observant Systems
 
-**NAMES OF COLLABORATORS HERE**
+**Independent Work**
 
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
@@ -99,6 +99,23 @@ pi@ixe00:~/openCV-examples/flow-detection $ python optical_flow.py 0 window
 pi@ixe00:~$ cd ~/openCV-examples/object-detection
 pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
+
+## Contours - Worked well in well lit conditions. Suffers when multiple objects are present. A key application can be edge detection and seperation of background and object
+
+<img width="1013" alt="Screen Shot 2022-10-31 at 3 28 14 PM" src="https://user-images.githubusercontent.com/98672292/199136503-93803fab-ec12-4757-b178-6907dea0c69f.png">
+
+## Face detection - Works well when I directily look at the camera in well lit conditions. Can we used to design a rudimentary face detection based security system
+
+<img width="1012" alt="Screen Shot 2022-10-31 at 3 31 15 PM" src="https://user-images.githubusercontent.com/98672292/199136615-2b4b4c8f-0239-40c1-be89-6d17ce246e96.png">
+
+## Flow Detection - Initially detected the edges and my glasses and followed the path pretty well. A sudden movement such as a head bob led to an offset. Also susceptible to backgroudn noise. An eye tracking based control system can be developed using this model
+
+<img width="1008" alt="Screen Shot 2022-10-31 at 3 32 57 PM" src="https://user-images.githubusercontent.com/98672292/199136741-2701fbb0-0006-414e-840a-0c2de7837d56.png">
+
+## Object detection - Worked well in well lit conditions. Post processing after camera capture is slow, in some cases led to a 5 second delay before the new frame was visible to the user. A simple apllication would be counting of cars on a road.
+
+<img width="1004" alt="Screen Shot 2022-10-31 at 3 37 27 PM" src="https://user-images.githubusercontent.com/98672292/199136855-2d805c62-b60c-45de-845b-636f2d0106dd.png">
+
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
@@ -229,6 +246,11 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+I will be using the object detection model to notify the user when they are using their phone during work/study period. The insipiration comes from my need for a device which lacks any screen and can be mounted on the wall and runs autonomously to notify me if it detects a distractions. The device detects if the user is using their phone and notifies them to to stop using it via a text2speech phrase. The same can also be viewed on a simple HTML APache server running on the pi.
+
+![Screen Shot 2022-10-31 at 8 08 38 PM](https://user-images.githubusercontent.com/98672292/199139238-360d4904-fb4b-47f1-b58a-e5dfbdea8900.png)
+
+
 ### Part C
 ### Test the interaction prototype
 
@@ -239,11 +261,15 @@ For example:
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
 
+When the use and the phone are detected within the same frame the device begins a subprocess to voice a command to stop using their phone. The command is played in a loop and stops playing when the phone is no longer detected in the context of the frame. The evice works in well lit conditions and with minimal background interferences. If the camera is pointed away or the room is dimly lit the device cannot detect the phone in use. Additonally if there are many moving objects in the background the system performs poorly. The system works in most cases during testing under well lit conditions.
+
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
 1. How bad would they be impacted by a miss classification?
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
+
+For a naive user using the system the camera must be postioned to capture the user with their phone in the frame. The model is susceptible to background noise and movements and can lead to false positives. Since the use is not aware of the system state, they would experience unwated voice prompts from the device. Additioanlly if the device detects a user in the background using the phone , the same prompt will be initialized. We can use face recognition and analyze the distance of the object from the camera module to estimate which objects to consider and discard background noise. The user also has the option to open a browser tab to see the same if the voice prompt is not ideal.
 
 ### Part D
 ### Characterize your own Observant system
@@ -259,6 +285,10 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+Answers to above qustions have been covered in the previous section
+
+# [link to video](https://drive.google.com/file/d/1jiAlK04ZuBW9MxlcpV7Hv9Cx2yhg9ROV/view?usp=share_link)
 
 ### Part 2.
 

@@ -295,3 +295,7 @@ Answers to above qustions have been covered in the previous section
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+
+# [Link to demo of part 2](https://drive.google.com/file/d/12PWZCpPjJ5HUNUTrY5Cx9a4kSuvM3x61/view?usp=share_link)
+# [Video of Setup(Taken from phone)](https://drive.google.com/file/d/1Et5f1p97HJakZ_D3QaDKigeeNNspNxnO/view?usp=share_link)

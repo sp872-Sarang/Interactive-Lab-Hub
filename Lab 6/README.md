@@ -177,7 +177,12 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
-I decided to build a security system which detected people and broadcasted a message when activated. This is a simple security system anyone can use. 
+I decided to build a security system which detected people and broadcasted a message when activated. This is a simple security system anyone can use. The system consists of 2 parts
+
+1 - Camera system - Object Detection and Publishing script
+2 - User Audio Device/Interface - SImulated with a second Camera, Using only the speaker of the Camera here to send user notifications
+
+If there is a Person detected in the frame of the camera once the sytem is online, the Camera System published on a topic - SecuritySystem_Sp , and consequently read by the User's device which notifies them that there is an unidentified person in thier home. 
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
@@ -195,6 +200,19 @@ I decided to build a security system which detected people and broadcasted a mes
 
 
 https://user-images.githubusercontent.com/98672292/200474360-22bdea93-70d1-4ab2-b404-b973b0649a4e.mp4
+
+The Owner script was run on another pi to simulate the notifation the user would recieve if the camera system in their apartment found an intruder present.
+
+Potential Risk:
+1. System must be activated and broker must be active
+2. Does not work well with sudden movement and bad lighting conditions
+3. Intruder must be within Camera systems frame
+
+
+Possible improvements
+1. Might be better to sync system with a smart door mechanism to activate if the door is open without the user enetering access code which can be published on a seperate topic
+2. Multiple Camera systems
+3. Voice/feedback to intruder to tell them an alarm has been triggered
 
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->

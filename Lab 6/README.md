@@ -96,6 +96,12 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. Rock/Paper/Scissors game with a friend - Each can play with their own pi and a centralized dashboard of each to display who won
+2. COnveying any kind of weather data over a large area - Wireless Sensor Network Applications
+3. Smart Door Lock system - Like the RING, Users get notified whenever their door is opened/closed
+4. Schedule status updates from event meetings. Distribute meeting minutes across teams of daily activities
+5. Simple Messaging platform for internal team project management
+
 ### Part C
 ### Streaming a Sensor
 
@@ -117,7 +123,15 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+![img 1](https://user-images.githubusercontent.com/98672292/200453675-68fb7e2c-2189-4957-871b-d80f612ccb18.jpeg)
+![img 2](https://user-images.githubusercontent.com/98672292/200454163-cf221ecd-49d3-458f-90ef-308e47405603.jpeg)
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+
+I used Joystick, chained with touch sensor
+
+![img4](https://user-images.githubusercontent.com/98672292/200460117-b54a75ba-33c2-4611-a22c-c71fa7ac8d21.png)
+![img 3](https://user-images.githubusercontent.com/98672292/200460144-00abe7ab-6cc0-4cd3-9e81-638a5fce4391.jpeg)
 
 
 ### Part D
@@ -150,6 +164,10 @@ You may ask "but what if I missed class?" Am I not admitted into the collective 
 Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-true-colornet.glitch.me/) and become one with the ColorNet on the inter-webs. Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
+
+
+https://user-images.githubusercontent.com/98672292/200463434-f0118e49-de98-432b-9af7-b1c17fabdb62.mp4
+
 
 
 ### Part E

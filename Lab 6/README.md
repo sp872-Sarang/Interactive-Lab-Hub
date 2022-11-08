@@ -130,9 +130,8 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 I used Joystick, chained with touch sensor
 
-![img 3](https://user-images.githu![Screen Shot 2022-11-07 at 9 17 00 PM](https://user-images.githubusercontent.com/98672292/200459814-7e45e89d-2b59-4eef-82b8-1914f8cd22c7.png)
-busercontent.com/98672292/200459807-37dc1311-43e6-4b96-96c0-c2d4f8401f44.jpeg)
-
+![img4](https://user-images.githubusercontent.com/98672292/200460117-b54a75ba-33c2-4611-a22c-c71fa7ac8d21.png)
+![img 3](https://user-images.githubusercontent.com/98672292/200460144-00abe7ab-6cc0-4cd3-9e81-638a5fce4391.jpeg)
 
 
 ### Part D

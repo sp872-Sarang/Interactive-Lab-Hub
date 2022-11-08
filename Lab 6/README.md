@@ -96,6 +96,12 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. Rock/Paper/Scissors game with a friend - Each can play with their own pi and a centralized dashboard of each to display who won
+2. COnveying any kind of weather data over a large area - Wireless Sensor Network Applications
+3. Smart Door Lock system - Like the RING, Users get notified whenever their door is opened/closed
+4. Schedule status updates from event meetings. Distribute meeting minutes across teams of daily activities
+5. Simple Messaging platform for internal team project management
+
 ### Part C
 ### Streaming a Sensor
 
@@ -116,6 +122,7 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 

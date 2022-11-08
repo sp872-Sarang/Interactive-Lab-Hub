@@ -123,8 +123,16 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+![img 1](https://user-images.githubusercontent.com/98672292/200453675-68fb7e2c-2189-4957-871b-d80f612ccb18.jpeg)
+![img 2](https://user-images.githubusercontent.com/98672292/200454163-cf221ecd-49d3-458f-90ef-308e47405603.jpeg)
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+
+I used Joystick, chained with touch sensor
+
+![img 3](https://user-images.githu![Screen Shot 2022-11-07 at 9 17 00 PM](https://user-images.githubusercontent.com/98672292/200459814-7e45e89d-2b59-4eef-82b8-1914f8cd22c7.png)
+busercontent.com/98672292/200459807-37dc1311-43e6-4b96-96c0-c2d4f8401f44.jpeg)
+
 
 
 ### Part D

@@ -1,6 +1,6 @@
 # Little Interactions Everywhere
 
-**NAMES OF COLLABORATORS HERE**
+Collab with Sara Shin for User Testing
 
 ## Prep
 
@@ -177,14 +177,22 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+I decided to build a security system which detected people and broadcasted a message when activated. This is a simple security system anyone can use. 
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+![d1](https://user-images.githubusercontent.com/98672292/200477475-d70b866a-b68b-42a0-bb9b-31144de36ce5.png)
+
+![d2](https://user-images.githubusercontent.com/98672292/200477488-cdc257ce-7863-4db7-9dea-faca481f6047.png)
+
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
-**\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
-
 <img width="930" alt="Screen Shot 2022-11-07 at 11 15 11 PM" src="https://user-images.githubusercontent.com/98672292/200474272-08c12770-7ea4-42bc-bf12-9ea28ce4b785.png">
 <img width="934" alt="Screen Shot 2022-11-07 at 11 15 30 PM" src="https://user-images.githubusercontent.com/98672292/200474273-4290de9f-33bb-43a0-b88b-0d9420ee5df8.png">
+
+**\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
 
 https://user-images.githubusercontent.com/98672292/200474360-22bdea93-70d1-4ab2-b404-b973b0649a4e.mp4
 

@@ -84,8 +84,13 @@ We developed this process diagram to illustrate the relationships between major 
 
 ![process diagram](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/530bb67bf0378f3367b456e08bc423b07537cbc5/Final%20Project/assets/process%20diagram.png)
 
-### Final Dashboard 
+### Final Dashboard & test
 The dashboard was built from the ground up using HTML, CSS and Javascript and run on a local apache web server on bootup at the interface node.With the current device users can view the dashboard by connecting to a local hotspot at the bus stop. When connected , they will be directed to the bus tracker dashboard. If the device were to be deployed at bus stops we expect to connect to the eduroam/Cornell’s/ public networks so that users may scan a QR code and get access to bus status information at various bus stops. With public access networks there is a necessity for security but that is not explored as part of this project.
+
+![dash](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/e6f7e75ddedf1ff55a413023c7806b0e421da064/Final%20Project/assets/dash.png)
+![test1](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/bb83e434f62f158cb916c3ed696cd2f37c358780/Final%20Project/assets/test1.jpeg)
+![test2](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/bb83e434f62f158cb916c3ed696cd2f37c358780/Final%20Project/assets/test2.jpeg)
+![test3](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/bb83e434f62f158cb916c3ed696cd2f37c358780/Final%20Project/assets/test3.jpeg)
 
 ## Conclusion & Future Work
 During the initial phase of the project ideation we wanted to create a device which was universal to interact with and solved 2 key problems - 1) Access to bus time information and 2) Reduce wait times at the bus stops. After internally testing various versions we realized that the key decision users would make is either wait for the bus or decide to walk and save time, which relied on knowing if the bus were to arrive soon or not. Hence a local server which users could connect to would provide access to bus times solved a key pain point. We did try getting in touch with RIOC to see if we could deploy our prototype on the west loop road, but they weren't as responsive as we hoped. 

@@ -44,7 +44,9 @@ In order to complete image detection, our starting point was the YOLO model, whi
 In this section, we describe the outcome of the first stage and provide a final overview of the bus detection system. 
 
 ### Node State Diagram 
-After developing an initial prototype and implementing node-to-node communication, we implemented the following state diagrams for the [interface](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/e62b6822117f246068863c833ccb4a9993b33964/Final%20Project/assets/interface_node.png) and [detection] nodes.
+After developing an initial prototype and implementing node-to-node communication, we implemented the following state diagrams for the [interface](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/e62b6822117f246068863c833ccb4a9993b33964/Final%20Project/assets/interface_node.png) and [detection](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/034888a7a6f3bcd51b3cb09fa7d195bbcbbbfa99/Final%20Project/assets/detection_node.png) nodes.
+
+
 
 
 

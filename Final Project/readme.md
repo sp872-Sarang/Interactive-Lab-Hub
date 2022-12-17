@@ -64,7 +64,7 @@ The following is a video of the model in action, however, the display showing bu
 [Bus Detection - output](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/4bafcd50ecc672135bdde3c47ca5bda962f00404/Final%20Project/assets/bus%20detection%20res.jpg)
 
 ### System Architecture 
-[System Architecture](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/fa5ff72fb99f6b55bd14c44b263edc6dd49b7858/Final%20Project/assets/system_architecture.png)
+![System Architecture](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/fa5ff72fb99f6b55bd14c44b263edc6dd49b7858/Final%20Project/assets/system_architecture.png)
 
 ### Process Diagram 
 ![process diagram](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/530bb67bf0378f3367b456e08bc423b07537cbc5/Final%20Project/assets/process%20diagram.png)

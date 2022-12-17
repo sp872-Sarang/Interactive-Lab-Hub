@@ -64,6 +64,7 @@ The following is a video of the model in action, however, the display showing bu
 [Bus Detection - output](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/4bafcd50ecc672135bdde3c47ca5bda962f00404/Final%20Project/assets/bus%20detection%20res.jpg)
 
 ### System Architecture 
+Our system is dependent on two nodes: an interface and detection node, which work in unison to transmit information on bus operation times. We use the NRF tranciever modules to communicate between the two systems. In the final iteration of our project, our system architecture changed to replace existing planned BerryNet + Yolo structure with the TFlite + OpenCV pipeline. 
 ![System Architecture](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/fa5ff72fb99f6b55bd14c44b263edc6dd49b7858/Final%20Project/assets/system_architecture.png)
 
 ### Process Diagram 

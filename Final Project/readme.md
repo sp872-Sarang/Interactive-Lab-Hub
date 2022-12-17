@@ -50,12 +50,14 @@ After developing an initial prototype and implementing node-to-node communicatio
 The final prototype used the tensorflow object-detection pipeline on the pi. Tensorflow lite is a lightweight version of tensorflow designed for low powered devices such as the raspberry pi. This format is usually used for IoT applications, for its small size and faster performance than bigger models. In this case, this format is perfect for the Raspberry Pi. 
 
 ### Using a model trained on a generic dataset 
-We used efficientdet-Lite0 object detection model, which was pretrained on a COCO 2017 dataset and optimized for TFLite. 
+We used efficientnet-Lite0 object detection model, which was pretrained on a COCO 2017 dataset and optimized for TFLite. EfficientNet-Lite brings the power of EfficientNet to edge devices and comes in five variants, allowing users to choose from the low latency/model size option (EfficientNet-Lite0) to the high accuracy option (EfficientNet-Lite4). We were able to extract the class that represents a bus, which can be used to update other sensors, as well as the dashboard, of bus arrival and departures. 
 
 #### Training a model on a custom dataset 
-Since the previous model was trained on a generic dataset, we tried another approach to see if we could get results better suited to the scope of our project. We selected the [MobileNet SSD v2](https://roboflow.com/model/mobilenet-ssd-v2), as this architecture provides good realtime results on limited compute. It's designed ot run in realtime at 30 frames per second, even on mobile devices. 
+Since the previous model was trained on a generic dataset, we tried another approach to see if we could get results better suited to the scope of our project. We selected the [MobileNet SSD v2](https://roboflow.com/model/mobilenet-ssd-v2), as this architecture provides good realtime results on limited compute. It's designed ot run in realtime at 30 frames per second, even on mobile devices. However, we found that the efficient-net-Lite0 option works better, and hope to use our dataset with this model in the future. 
 
-[model architecture](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/3a722aa51cf901427f1529adce9d0aa4624ccc9a/Final%20Project/assets/mobilenet-architecture.png)
+The following is a video of the model in action, however, the display showing bus-detection results is shown in the image. 
+[Bus Detection Test](https://youtube.com/shorts/_5twojFx45Q?feature=share)
+[Bus Detection - output](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/4bafcd50ecc672135bdde3c47ca5bda962f00404/Final%20Project/assets/bus%20detection%20res.jpg)
 
 
 

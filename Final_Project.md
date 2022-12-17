@@ -1,4 +1,4 @@
-# INFO 5435 - Final Project
+# INFO 5435 - Final Project Proposal
 
 #### Team Members
 Sarang Pramode - sp872@cornell.edu

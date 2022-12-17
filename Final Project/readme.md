@@ -27,6 +27,7 @@ The first prototype diagram, we focused on designing a product that would be pos
 We emulated a bus arrival using a flag which was changed manually. We used this prototype to develop the state diagram and data packets and test any bugs when designing the system. Ultimately, we decided not to incorporate it into the final prototype as the screen wasn't the correct size - users found it difficult to see and interact with. Our nex steps were to implement a dashboard which can accessed by scan via the users mobile device. 
 
 [Video | Prototype Testing | Bus Arrival Emulation](https://drive.google.com/file/d/1RdR2YJqAdSTYUIs21w_4qgJ3VvrxD971/view?usp=sharing)
+
 [Video | Functional Check-In](https://drive.google.com/file/d/1C4MjyItW-Z7OiaSUTtsryfwuJhHPJi3L/view?usp=sharing)
 
 ### Object Recognition: Initial model tests & results

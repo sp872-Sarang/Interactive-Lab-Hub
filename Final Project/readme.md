@@ -18,7 +18,7 @@ https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/fe5d31931dcc0aeeabb3734
 &nbsp; &nbsp;
 
 ## Ideation Part 1: Prototypes 
-The idea is to create a local mesh network which is placed on a single strip in line of sight on west loop road which can notify users standing on the bus stop at the entrance of Cornell Tech campus.
+The idea is to create a local mesh network which is placed on a single strip in line of sight on west loop road which can notify users standing on the bus stop at the entrance of Cornell Tech campus. The outcome of this section correspond to the [Functional Check-Off Slide Set](https://docs.google.com/presentation/d/1ggy2iLC1x2BC1jz5pk0lwDpPvXzG58ecRH5AkmBrPm4/edit?usp=sharing). 
 
 ### Detection Node 
 We considered a few factors when designing the prototype for the detection node. First, we wanted to make sure that the detection node worked for different environments - our first course of action would be to pilot-test the product, meaning that the design specifications for the detection node housing, and the included components would be different from the final product. 

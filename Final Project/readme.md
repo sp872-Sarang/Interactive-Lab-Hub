@@ -66,13 +66,13 @@ Since the previous model was trained on a generic dataset, we tried another appr
 
 The [custom dataset](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/018593d8a53b3f162953bc7cc58d3c17dc75c91e/Final%20Project/ML_model/bus.v1i.tfrecord.zip) is a compliation of hand-labelled images of the RIOC bus, which was then procesed on [Roboflow](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/cb5dc5be27b8684cff2ac81879d74dc14d92678a/Final%20Project/assets/roboflow_example.png) and converted into a tf-compatible doc. We found that the efficient-net-Lite0 option works better, and hope to use our dataset with this model in the future. 
 
-![Roboflow](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/cb5dc5be27b8684cff2ac81879d74dc14d92678a/Final%20Project/assets/roboflow_example.png =250x250)
+<img src=:"https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/cb5dc5be27b8684cff2ac81879d74dc14d92678a/Final%20Project/assets/roboflow_example.png" width="250" height="250">
 
 The following is a video of the model in action, however, the display showing bus-detection results is shown in the image. 
 
 [Bus Detection Test](https://youtube.com/shorts/_5twojFx45Q?feature=share)
 
-![Bus Detection - output](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/4bafcd50ecc672135bdde3c47ca5bda962f00404/Final%20Project/assets/bus%20detection%20res.jpg =250x250)
+<img src=:"https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/4bafcd50ecc672135bdde3c47ca5bda962f00404/Final%20Project/assets/bus%20detection%20res.jpg" width="250" height="250">
 
 ### System Architecture 
 Our system is dependent on two nodes: an interface and detection node, which work in unison to transmit information on bus operation times. We use the NRF tranciever modules to communicate between the two systems. In the final iteration of our project, our system architecture changed to replace existing planned BerryNet + Yolo structure with the TFlite + OpenCV pipeline. 

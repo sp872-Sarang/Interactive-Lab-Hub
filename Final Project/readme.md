@@ -68,6 +68,7 @@ Our system is dependent on two nodes: an interface and detection node, which wor
 ![System Architecture](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/fa5ff72fb99f6b55bd14c44b263edc6dd49b7858/Final%20Project/assets/system_architecture.png)
 
 ### Process Diagram 
+We developed this process diagram to illustrate the relationships between major components of the bus monitoring system. In order to increase the scope of the project, we implement a communication node that facilitates the interaction between the detection and interface nodes. The goal is to transmit data as steadily and quickly as possible throughout the system, after the detection node has tracked the RIOC bus. 
 ![process diagram](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/530bb67bf0378f3367b456e08bc423b07537cbc5/Final%20Project/assets/process%20diagram.png)
 
 ### Final Dashboard 

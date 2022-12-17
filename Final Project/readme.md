@@ -55,6 +55,8 @@ We used efficientnet-Lite0 object detection model, which was pretrained on a COC
 #### Training a model on a custom dataset 
 Since the previous model was trained on a generic dataset, we tried another approach to see if we could get results better suited to the scope of our project. We selected the [MobileNet SSD v2](https://roboflow.com/model/mobilenet-ssd-v2), as this architecture provides good realtime results on limited compute. It's designed ot run in realtime at 30 frames per second, even on mobile devices. However, we found that the efficient-net-Lite0 option works better, and hope to use our dataset with this model in the future. 
 
+The [custom dataset](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/018593d8a53b3f162953bc7cc58d3c17dc75c91e/Final%20Project/ML_model/bus.v1i.tfrecord.zip) is a compliation of hand-labelled images of the RIOC bus, which was then procesed on Roboflow and converted into a tf-compatible doc. 
+
 The following is a video of the model in action, however, the display showing bus-detection results is shown in the image. 
 
 [Bus Detection Test](https://youtube.com/shorts/_5twojFx45Q?feature=share)

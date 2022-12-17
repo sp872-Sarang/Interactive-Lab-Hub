@@ -38,3 +38,31 @@ The first system used the YOLO object detection model, which is capable of frame
 In order to complete image detection, our starting point was the YOLO model, which is pre-trained to detect a bus, among other objects. We tested our starting model on RIOC bus images, which worked well and offered a great starting point that would allow us to integrate the model into the final project. 
 
 
+## Ideation: Part 2: Results 
+In this section, we describe the outcome of the first stage and provide a final overview of the bus detection system. 
+
+### Node State Diagram 
+After developing an initial prototype and implementing node-to-node communication, we implemented the following state diagrams for the [interface] and [detection] nodes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

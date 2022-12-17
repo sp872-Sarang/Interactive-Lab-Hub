@@ -15,9 +15,9 @@ To begin our project, we reached out to a few friends who live in the house to a
 For our [storyboard](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/fe5d31931dcc0aeeabb3734472247a36b69404b5/Final%20Project/assets/storyboard.png) and [verplank](
 https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/fe5d31931dcc0aeeabb3734472247a36b69404b5/Final%20Project/assets/verplank.png) diagram our goal was to convey the inefficiencies that emerge when interacting with the bus network. We re-create an experience many Roosevelt Island residents can relate to; traveling to the bus stop, only to experience odd departure and arrival times, ultimately reducing the users ability to interact with the system. The breakthrough occurs when our subject, Jack, notices a new, innovative product that resolves this issue - the bus tracker system, which ensures that users have the best understanding of when and where to catch the bus. 
 
+&nbsp; &nbsp;
 
-
-## Ideation: Part 1: Prototypes 
+## Ideation Part 1: Prototypes 
 The idea is to create a local mesh network which is placed on a single strip in line of sight on west loop road which can notify users standing on the bus stop at the entrance of Cornell Tech campus.
 
 ### Detection Node 

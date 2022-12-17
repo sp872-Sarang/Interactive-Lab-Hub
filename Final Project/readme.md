@@ -49,7 +49,7 @@ After developing an initial prototype and implementing node-to-node communicatio
 ### ML Model 
 The final prototype used the tensorflow object-detection pipeline on the pi. Tensorflow lite is a lightweight version of tensorflow designed for low powered devices such as the raspberry pi. This format is usually used for IoT applications, for its small size and faster performance than bigger models. In this case, this format is perfect for the Raspberry Pi. 
 
-### Using a model trained on a generic dataset 
+#### Using a model trained on a generic dataset 
 We used efficientnet-Lite0 object detection model, which was pretrained on a COCO 2017 dataset and optimized for TFLite. EfficientNet-Lite brings the power of EfficientNet to edge devices and comes in five variants, allowing users to choose from the low latency/model size option (EfficientNet-Lite0) to the high accuracy option (EfficientNet-Lite4). We were able to extract the class that represents a bus, which can be used to update other sensors, as well as the dashboard, of bus arrival and departures. 
 
 #### Training a model on a custom dataset 
@@ -63,11 +63,15 @@ The following is a video of the model in action, however, the display showing bu
 
 [Bus Detection - output](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/4bafcd50ecc672135bdde3c47ca5bda962f00404/Final%20Project/assets/bus%20detection%20res.jpg)
 
+### System Architecture 
+### Process Diagram 
+### Final Dashboard 
+The dashboard was built from the ground up using HTML, CSS and Javascript and run on a local apache web server on bootup at the interface node.With the current device users can view the dashboard by connecting to a local hotspot at the bus stop. When connected , they will be directed to the bus tracker dashboard. If the device were to be deployed at bus stops we expect to connect to the eduroam/Cornell’s/ public networks so that users may scan a QR code and get access to bus status information at various bus stops. With public access networks there is a necessity for security but that is not explored as part of this project.
 
+## Conclusion & Future Work
+During the initial phase of the project ideation we wanted to create a device which was universal to interact with and solved 2 key problems - 1) Access to bus time information and 2) Reduce wait times at the bus stops. After internally testing various versions we realized that the key decision users would make is either wait for the bus or decide to walk and save time, which relied on knowing if the bus were to arrive soon or not. Hence a local server which users could connect to would provide access to bus times solved a key pain point. We did try getting in touch with RIOC to see if we could deploy our prototype on the west loop road, but they weren't as responsive as we hoped. 
 
-
-
-
+In future iterations, we hope to add a larger LED screen/tablet which users can interact with and use a touch panel to allow users to use the system. We also hope to scale the system to multiple stops.
 
 
 

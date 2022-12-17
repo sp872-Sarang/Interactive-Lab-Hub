@@ -56,7 +56,9 @@ We used efficientnet-Lite0 object detection model, which was pretrained on a COC
 Since the previous model was trained on a generic dataset, we tried another approach to see if we could get results better suited to the scope of our project. We selected the [MobileNet SSD v2](https://roboflow.com/model/mobilenet-ssd-v2), as this architecture provides good realtime results on limited compute. It's designed ot run in realtime at 30 frames per second, even on mobile devices. However, we found that the efficient-net-Lite0 option works better, and hope to use our dataset with this model in the future. 
 
 The following is a video of the model in action, however, the display showing bus-detection results is shown in the image. 
+
 [Bus Detection Test](https://youtube.com/shorts/_5twojFx45Q?feature=share)
+
 [Bus Detection - output](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/4bafcd50ecc672135bdde3c47ca5bda962f00404/Final%20Project/assets/bus%20detection%20res.jpg)
 
 

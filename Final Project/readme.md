@@ -64,7 +64,11 @@ The following is a video of the model in action, however, the display showing bu
 [Bus Detection - output](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/4bafcd50ecc672135bdde3c47ca5bda962f00404/Final%20Project/assets/bus%20detection%20res.jpg)
 
 ### System Architecture 
+[System Architecture](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/fa5ff72fb99f6b55bd14c44b263edc6dd49b7858/Final%20Project/assets/system_architecture.png)
+
 ### Process Diagram 
+[process diagram](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/530bb67bf0378f3367b456e08bc423b07537cbc5/Final%20Project/assets/process%20diagram.png)
+
 ### Final Dashboard 
 The dashboard was built from the ground up using HTML, CSS and Javascript and run on a local apache web server on bootup at the interface node.With the current device users can view the dashboard by connecting to a local hotspot at the bus stop. When connected , they will be directed to the bus tracker dashboard. If the device were to be deployed at bus stops we expect to connect to the eduroam/Cornell’s/ public networks so that users may scan a QR code and get access to bus status information at various bus stops. With public access networks there is a necessity for security but that is not explored as part of this project.
 

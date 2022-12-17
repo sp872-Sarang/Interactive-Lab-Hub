@@ -23,8 +23,6 @@ https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/fe5d31931dcc0aeeabb3734
 ## Ideation Part 1: Prototypes 
 The idea is to create a local mesh network which is placed on a single strip in line of sight on west loop road which can notify users standing on the bus stop at the entrance of Cornell Tech campus. The outcome of this section correspond to the [Functional Check-Off Slide Set](https://docs.google.com/presentation/d/1ggy2iLC1x2BC1jz5pk0lwDpPvXzG58ecRH5AkmBrPm4/edit?usp=sharing). 
 
-![Functional Check-Off Slide Set](https://docs.google.com/presentation/d/1ggy2iLC1x2BC1jz5pk0lwDpPvXzG58ecRH5AkmBrPm4/edit?usp=sharing)
-
 ### Detection Node 
 We considered a few factors when designing the prototype for the detection node. First, we wanted to make sure that the detection node worked for different environments - our first course of action would be to pilot-test the product, meaning that the design specifications for the detection node housing, and the included components would be different from the final product. 
 
@@ -33,9 +31,9 @@ The first prototype diagram, we focused on designing a product that would be pos
 ### Communication Node 
 We emulated a bus arrival using a flag which was changed manually. We used this prototype to develop the state diagram and data packets and test any bugs when designing the system. Ultimately, we decided not to incorporate it into the final prototype as the screen wasn't the correct size - users found it difficult to see and interact with. Our nex steps were to implement a dashboard which can accessed by scan via the users mobile device. 
 
-[Video | Prototype Testing | Bus Arrival Emulation](https://drive.google.com/file/d/1RdR2YJqAdSTYUIs21w_4qgJ3VvrxD971/view?usp=sharing)
+![Video | Prototype Testing | Bus Arrival Emulation](https://drive.google.com/file/d/1RdR2YJqAdSTYUIs21w_4qgJ3VvrxD971/view?usp=sharing)
 
-[Video | Functional Check-In](https://drive.google.com/file/d/1C4MjyItW-Z7OiaSUTtsryfwuJhHPJi3L/view?usp=sharing)
+![Video | Functional Check-In](https://drive.google.com/file/d/1C4MjyItW-Z7OiaSUTtsryfwuJhHPJi3L/view?usp=sharing)
 
 ### Object Recognition: Initial model tests & results
 This project is focused on real-time object tracking of the RIOC bus, using computer vision and machine learning for image processing. We explored multiple methods for facilitating real-time, accurate object detection. 

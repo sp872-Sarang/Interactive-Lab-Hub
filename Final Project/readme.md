@@ -43,11 +43,17 @@ In order to complete image detection, our starting point was the YOLO model, whi
 ## Ideation: Part 2: Results 
 In this section, we describe the outcome of the first stage and provide a final overview of the bus detection system. 
 
-### Node State Diagram 
+### Node State Diagrams 
 After developing an initial prototype and implementing node-to-node communication, we implemented the following state diagrams for the [interface](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/e62b6822117f246068863c833ccb4a9993b33964/Final%20Project/assets/interface_node.png) and [detection](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/034888a7a6f3bcd51b3cb09fa7d195bbcbbbfa99/Final%20Project/assets/detection_node.png) nodes.
 
+### ML Model 
+The final prototype used the tensorflow object-detection pipeline on the pi. Tensorflow lite is a lightweight version of tensorflow designed for low powered devices such as the raspberry pi. This format is usually used for IoT applications, for its small size and faster performance than bigger models. In this case, this format is perfect for the Raspberry Pi. 
 
 
+#### Training a model on a custom dataset 
+Since the previous model was trained on a generic dataset, we tried another approach to see if we could get results better suited to the scope of our project. We selected the [MobileNet SSD v2](https://roboflow.com/model/mobilenet-ssd-v2), as this architecture provides good realtime results on limited compute. It's designed ot run in realtime at 30 frames per second, even on mobile devices. 
+
+[model architecture](https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/3a722aa51cf901427f1529adce9d0aa4624ccc9a/Final%20Project/assets/mobilenet-architecture.png)
 
 
 

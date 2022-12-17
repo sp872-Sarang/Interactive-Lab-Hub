@@ -72,6 +72,8 @@ The following is a video of the model in action, however, the display showing bu
 
 <img src="https://github.com/sp872-Sarang/Interactive-Lab-Hub/blob/4bafcd50ecc672135bdde3c47ca5bda962f00404/Final%20Project/assets/bus%20detection%20res.jpg" height="500">
 
+One important thing to keep in mind is that the model detects numerous frames each second and labels them - as a result, additional logic is required to ensure stable tracking of the bus. For instance, tracking the time first seen and time last seen may be more helpful rather than getting a frame-by-frame output of each result. 
+
 ### System Architecture 
 Our system is dependent on two nodes: an interface and detection node, which work in unison to transmit information on bus operation times. We use the NRF tranciever modules to communicate between the two systems. In the final iteration of our project, our system architecture changed to replace existing planned BerryNet + Yolo structure with the TFlite + OpenCV pipeline. 
 

@@ -49,6 +49,8 @@ After developing an initial prototype and implementing node-to-node communicatio
 ### ML Model 
 The final prototype used the tensorflow object-detection pipeline on the pi. Tensorflow lite is a lightweight version of tensorflow designed for low powered devices such as the raspberry pi. This format is usually used for IoT applications, for its small size and faster performance than bigger models. In this case, this format is perfect for the Raspberry Pi. 
 
+### Using a model trained on a generic dataset 
+We used efficientdet-Lite0 object detection model, which was pretrained on a COCO 2017 dataset and optimized for TFLite. 
 
 #### Training a model on a custom dataset 
 Since the previous model was trained on a generic dataset, we tried another approach to see if we could get results better suited to the scope of our project. We selected the [MobileNet SSD v2](https://roboflow.com/model/mobilenet-ssd-v2), as this architecture provides good realtime results on limited compute. It's designed ot run in realtime at 30 frames per second, even on mobile devices. 
